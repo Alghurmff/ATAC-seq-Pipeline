@@ -1,1 +1,1 @@
-# ATAC-seq-Pipeline
+# ATAC-seq Pipeline
