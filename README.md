@@ -1,6 +1,6 @@
 # ATAC-seq Pipeline
 
-# Description 
+## Description 
 
 This ATAC-seq pipeline is both straightforward and reproducible, covering everything from raw FASTQ files to transcription factor activity and generating a signal track file (bigwig). It can handle both single-end and paired-end data. Detailed error reporting is provided, and the pipeline allows for easy resumption of interrupted runs. This pipeline is run using Linux and R.
 
@@ -8,7 +8,7 @@ The figure below provides an overview of all the steps involved, along with the 
 
 <img width="819" alt="ATACseq_pipeline" src="https://user-images.githubusercontent.com/114663482/232249040-fdc83234-737b-4942-8b00-508094ca3c0c.png">
 
-# List of tools : 
+## List of tools : 
 
 ### Bash Script
 
@@ -67,3 +67,17 @@ Matrix_1.5-3
 SummarizedExperiment_1.28.0
 BiocParallel_1.32.5
 BSgenome.Hsapiens.UCSC.hg38_1.4.5 
+
+## Quick Start
+
+Open runATAC.sh in a text editor and make the necessary changes by editing the path according to your file, updating the tools and files or variables name. After that go to templateATAC.sh and make sure that the changes you made in runATAC.sh is updated in the template. 
+
+To run the script from FASTQC to peak calling for each sample do the followin:
+```
+bash runATAC.sh "sample name"
+```
+After that all the files and reports will be generated for ech samples.
+
+ 
+
+
