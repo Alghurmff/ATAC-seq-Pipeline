@@ -72,27 +72,27 @@ BSgenome.Hsapiens.UCSC.hg38_1.4.5
 
 Open runATAC.sh in a text editor and make the necessary changes by editing the path according to your file, updating the tools and files or variables name. After that go to templateATAC.sh and make sure that the changes you made in runATAC.sh is updated in the template. 
 
-* To run the script from FASTQC to peak calling for each sample do the followin:
+### To run the script from FASTQC to peak calling for each sample do the followin:
 ```
 bash runATAC.sh "sample_name"
 ```
 After that all the files and reports will be generated for ech samples.
 
  
-* Consensus peaks
+### Consensus peaks
 First merge all narrowpeak files to use it for consensus peak and then run the  10_consensus_peaks.Rmd file.
 
 For consensus peaks QC, run 11_Jaccard_heatmap.sh. This will perform a loop between all bed files from different cell types in pairwise_jaccard.txt file. This file will be used in 11_jaccard_samples.R  to creat the jacccard heat map and mds similarity.
 
-* Count table- ibex
+### Count table
 Before doing the peak annotation we need to do count table to get the peaks that overlap between clean.bam files from all samples bed file for all cell type using bash script (bedCount.sh) with the function multicov. 
 
 
-* Peak annotation 
+### Peak annotation 
 
 (12_peak_annotation.R) using the consensus peak for all cell types file
 
-* Transcription factor activity
+### Transcription factor activity
 
  (13_chromVAR_TF .R) which has a detailed explination of the process
 
