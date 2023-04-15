@@ -74,7 +74,7 @@ Open runATAC.sh in a text editor and make the necessary changes by editing the p
 
 * To run the script from FASTQC to peak calling for each sample do the followin:
 ```
-bash runATAC.sh "sample name"
+bash runATAC.sh "sample_name"
 ```
 After that all the files and reports will be generated for ech samples.
 
