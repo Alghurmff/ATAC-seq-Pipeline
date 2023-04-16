@@ -14,8 +14,8 @@
 ##BULK ATAC SEQ PIPELINE
 ########################
 templatefile="/home/alghurmf/bulkATAC/scripts/templateATAC.sh"
-inputdir="/ibex/scratch/projects/c2169/BMatlas/bulkATAQ/original_data/Nichefastq/191108_R355"   #path where is the FASTQ, new samples
-outputdir="/ibex/scratch/projects/c2169/BMatlas/bulkATAQ/original_data/Nichefastq/191108_R355"   # path of output folder
+inputdir="bulkATAQ/original_data/Nichefastq/191108_R355"   #path where is the FASTQ, new samples
+outputdir="bulkATAQ/original_data/Nichefastq/191108_R355"   # path of output folder
 
 
 #sample information
