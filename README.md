@@ -1,5 +1,6 @@
 # ATAC-seq Pipeline
 
+
 ## Description 
 
 This ATAC-seq pipeline is both straightforward and reproducible, covering everything from raw FASTQ files to transcription factor activity and generating a signal track file (bigwig). It can handle both single-end and paired-end data. Detailed error reporting is provided, and the pipeline allows for the easy resumption of interrupted runs. This pipeline is run using Linux and R.
