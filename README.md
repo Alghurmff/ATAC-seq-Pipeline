@@ -72,7 +72,9 @@ BSgenome.Hsapiens.UCSC.hg38_1.4.5
 
 Open runATAC.sh in a text editor and make the necessary changes by editing the path according to your file, updating the tools and files or variables name. After that go to templateATAC.sh and make sure that the changes you made in runATAC.sh is updated in the template. 
 
-### To run the script from FASTQC to peak calling for each sample do the followin:
+### From FASTQC to peak calling
+
+To run the script from FASTQC to peak calling for each sample do the followin:
 ```
 bash runATAC.sh "sample_name"
 ```
