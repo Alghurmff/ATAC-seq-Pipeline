@@ -1,8 +1,23 @@
 # ATAC-seq Pipeline
 
+Table of Contents
+=================
+
+* [ATAC-seq Pipeline](#atac-seq-pipeline)
+   * [Description](#description)
+   * [List of tools :](#list-of-tools-)
+      * [Bash Script](#bash-script)
+      * [R Packages](#r-packages)
+   * [Quick Start](#quick-start)
+      * [From FASTQC to peak calling](#from-fastqc-to-peak-calling)
+      * [Consensus peaks](#consensus-peaks)
+      * [Count table](#count-table)
+      * [Peak annotation](#peak-annotation)
+      * [Transcription factor activity](#transcription-factor-activity)
 
 ## Description 
 
+In this repository, you can fin bulk ATAC-seq script for healthy human bone marrow samples.
 This ATAC-seq pipeline is both straightforward and reproducible, covering everything from raw FASTQ files to transcription factor activity and generating a signal track file (bigwig). It can handle both single-end and paired-end data. Detailed error reporting is provided, and the pipeline allows for the easy resumption of interrupted runs. This pipeline is run using Linux and R.
 
 The figure below provides an overview of all the steps involved, along with the corresponding tools and programming language.
@@ -103,9 +118,9 @@ After that, all the files and reports will be generated for each sample.
 
  
 ### Consensus peaks
-First, merge all narrowpeak files to use it for consensus peak and then run the **(02_consensus_peaks.Rmd)** file.
+First, merge all narrowpeak files for each cell type to use it for consensus peak and then run the **(02_consensus_peaks.Rmd)** file in R.
 
-For consensus peaks QC, run **(03_Jaccard_heatmap.sh)** This will perform a loop between all bed files from different cell types in the pairwise_jaccard.txt file. This file will be used in **(04_jaccard_samples.R)** to create the jacccard heat map and MDS similarity.
+For consensus peaks QC, run **(03_Jaccard_heatmap.sh)** This will perform a loop between all bed files from different cell types in the pairwise_jaccard.txt file. This file will be used in **(04_jaccard_samples.R)** to create the jacccard heatmap and MDS similarity.
 
 ### Count table
 Before doing the peak annotation we need to do a count table to get the peaks that overlap between clean.bam files from all samples bed files for all cell types using bash script **(05_bedCount.sh)** with the function multicov. 
@@ -113,11 +128,8 @@ Before doing the peak annotation we need to do a count table to get the peaks th
 
 ### Peak annotation 
 
-**(06_peak_annotation.R)** using the consensus peak for all cell types file
+**(06_peak_annotation.R)** using the consensus peak for all cell types to annotate the peaks into genomic coordinates of each peak with nearby genes, functional elements, or other genomic features. 
 
 ### Transcription factor activity
 
-**(07_chromVAR_TF .R)** which has a detailed explanation of the process
-
-
-
+**(07_chromVAR_TF .R)** has a detailed explanation of the process to determine transcription factor activity using chromVAR.
