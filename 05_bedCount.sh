@@ -14,7 +14,7 @@
 partition="batch"
 mem="100G"
 nodes="1"
-mail="mashael.alghuraybi@kaust.edu.sa"
+mail="YOUR EMAIL"
 jobname=bedCount
 outputlog=${Out_Dir}/bedCount.out
 errorlog=${Out_Dir}/bedCount.err
@@ -30,10 +30,8 @@ module load bedtools/2.29.0
 
 # 10. Count the number of reads mapping to each feature (OCR)
 
-#filenames= "/ibex/scratch/alghurmf/bulAtac/*/04bam/*.clean.bam | grep -w HSC\|CLP\|proB\|preB\|PreProB\|ImmatureB\|neutrophils\|PC"
-
 # for all cell types: 
-filenames=$(ls /ibex/scratch/alghurmf/bulkAtac/*/04bam/*.clean.bam | grep "HSC\|CLP\|proB\|preB\|PreProB\|ImmatureB\|neutrophils\|PC")
+filenames=$(ls /ibex/alghurmf/bulkAtac/*/04bam/*.clean.bam | grep "HSC\|CLP\|proB\|preB\|PreProB\|ImmatureB\|neutrophils")
 bed_file="/ibex/scratch/alghurmf/bulkAtac/BedCount/Allconsensus_cell_types.bed"
 
 Out_Dir="/ibex/scratch/alghurmf/bulkAtac/BedCount"   # path of output folder
@@ -42,10 +40,3 @@ Out_Dir="/ibex/scratch/alghurmf/bulkAtac/BedCount"   # path of output folder
 bedtools multicov -bams $filenames -bed $bed_file  -D > $Out_Dir/count_table.txt
 
 
-# for neutrophils only
-#filenames=$(ls /ibex/scratch/alghurmf/bulkAtac/*/04bam/*.clean.bam | grep "neutrophils")
-#bed_file="/ibex/scratch/alghurmf/bulkAtac/BedCount/consensusReduce_Nutrophils.bed"
-
-#Out_Dir="/ibex/scratch/alghurmf/bulkAtac/BedCount"   # path of output folder
-
-#bedtools multicov -bams $filenames -bed $bed_file  -D > $Out_Dir/count_table_nuetrophils.txt
