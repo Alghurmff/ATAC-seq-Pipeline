@@ -13,7 +13,7 @@
 ########################
 ##BULK ATAC SEQ PIPELINE
 ########################
-templatefile="/home/alghurmf/bulkATAC/scripts/templateATAC.sh"
+templatefile="bulkATAC/scripts/templateATAC.sh"
 inputdir="bulkATAQ/original_data/Nichefastq/191108_R355"   #path where is the FASTQ, new samples
 outputdir="bulkATAQ/original_data/Nichefastq/191108_R355"   # path of output folder
 
@@ -22,14 +22,14 @@ outputdir="bulkATAQ/original_data/Nichefastq/191108_R355"   # path of output fol
 fastqid=$1 # if it is PE would be fastqid_1.fastq.gz, fastqid_2.fastq.gz, for SE fastqid.fastq.gz
 organism="human" #human or mouse
 if [[ ${organism} = "human" ]]; then
-    referencedir="/home/alghurmf/bulkATAC/reference_genome/bowtie2" # indexed hg38 genome by bowtie2
-	blacklist="/home/alghurmf/bulkATAC/hg38-blacklist.v2.bed"
+    referencedir="bulkATAC/reference_genome/bowtie2" # indexed hg38 genome by bowtie2
+	blacklist="bulkATAC/hg38-blacklist.v2.bed"
 fi
 
 
 #library information
 layout="PE" #PE=pair-end, SE=single-end
-adapters="/home/alghurmf/bulkATAC/adapters/adapters/NexteraPE-PE.fa" #remove adapters in trimmomatic if needed
+adapters="bulkATAC/adapters/adapters/NexteraPE-PE.fa" #remove adapters in trimmomatic if needed
 
 #software
 fastqc="module load fastqc/0.11.8"
