@@ -22,7 +22,6 @@ outputdir="bulkATAQ/original_data/Nichefastq/191108_R355"   # path of output fol
 fastqid=$1 # if it is PE would be fastqid_1.fastq.gz, fastqid_2.fastq.gz, for SE fastqid.fastq.gz
 organism="human" #human or mouse
 if [[ ${organism} = "human" ]]; then
-    #referencedir="/home/alghurmf/bulkATAC/reference_genome/hg38.fa.gz"
     referencedir="/home/alghurmf/bulkATAC/reference_genome/bowtie2" # indexed hg38 genome by bowtie2
 	blacklist="/home/alghurmf/bulkATAC/hg38-blacklist.v2.bed"
 fi
@@ -30,7 +29,7 @@ fi
 
 #library information
 layout="PE" #PE=pair-end, SE=single-end
-adapters="/home/alghurmf/bulkATAC/adapters/adapters/NexteraPE-PE.fa" #remove adapters in trimmomatic or if you want can be none
+adapters="/home/alghurmf/bulkATAC/adapters/adapters/NexteraPE-PE.fa" #remove adapters in trimmomatic if needed
 
 #software
 fastqc="module load fastqc/0.11.8"
@@ -48,7 +47,7 @@ bamCovarage="module load deeptools/python2.7/3.3.1"
 partition="batch"
 mem="100G"
 nodes="1"
-mail="mashael.alghuraybi@kaust.edu.sa"
+mail="YOUR EMAIL"
 jobname=${fastqid}_bulkATAC
 outputlog=${outputdir}/${fastqid}/00script/${fastqid}_bulkATAC.out
 errorlog=${outputdir}/${fastqid}/00script/${fastqid}_bulkATAC.err
