@@ -62,28 +62,6 @@ Merging nearby peaks
 covered_granges_ProB_progenitors_reduced <- reduce(covered_granges_ProB_progenitors, min.gapwidth=31)
 export(covered_granges_ProB_progenitors_reduced, "consensusReduced_ProB_progenitors.bed")
 
-```
-
-When there's a peak in at least 2 samples 
-CLLP:As you can see, this reduced the number of ranges from 63693  to 63429.
-HSSC: As you can see, this reduced the number of ranges from 64704 to 64538
-PrreB: As you can see, this reduced the number of ranges from 45953 to 45819 
-PrroB: As you can see, this reduced the number of ranges from 53757 to 53533 
-Immmature.B: As you can see, this reduced the number of ranges from 41926 to 41806
-neuutrophils: As you can see, this reduced the number of ranges from 16776 to 16739
-PrreProoB: As you can see, this reduced the number of ranges from 50700 to 50548
-
-
-When there's a peak in at least n-1 samples (e.g 9 out of 10)
-CLLP(8):As you can see, this reduced the number of ranges from 28095 to 28030.
-HSSC(8): As you can see, this reduced the number of ranges from 31172 to 31130
-PrreB(9): As you can see, this reduced the number of ranges from 23936 to 23886
-PrroB(9): As you can see, this reduced the number of ranges from 28276 to 28204
-Immmature.B(7): As you can see, this reduced the number of ranges from 23956 to 23907
-neuutrophils(2): As you can see, this reduced the number of ranges from 16776 to 16739
-#PrreProoBs(5): As you can see, this reduced the number of ranges from 32299 to 32252
-PrreProoBs(2): As you can see, this reduced the number of ranges from 41290 to 41242
-ProB-progenitors(2): As you can see, this reduced the number of ranges from 40621 to 40581
 
 
 ######################
@@ -144,9 +122,8 @@ export(red_covered_granges, "Allconsensus_cell_types.bed")
 
 ```
 
-# We have a total of 61879 (50553_old) intervals (peaks)
+# We have a total of 53568 intervals/peaks
 # consensus_cell_types.bed = 53568 
-# Allconsensus_cell_types.bed + PC = 53675 
 
 #for singel-cell comparison
 #export(red_covered_granges, "consensus_3cell_types.bed")
