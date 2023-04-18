@@ -12,6 +12,8 @@ The figure below provides an overview of all the steps involved, along with the 
 
 ### Bash Script
 
+Using IBEX cluster with 20 cpus-per-task 
+
 * fastqc/0.11.8
 * trimmomatic/0.38
 
