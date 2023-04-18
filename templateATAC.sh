@@ -29,10 +29,10 @@ echo "2-TRIMMING starts: $(date)"
 
 %moduletrimmomatic%
 
-# With primer
+# With Adapter
 #java -jar $TRIMMOMATIC_JAR %layout% -threads 20 -phred33 %inputfiles% %outputtrim% ILLUMINACLIP:%adapters%:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36 
 
-# Without primer
+# Without Adapter
 java -jar $TRIMMOMATIC_JAR %layout% -threads 20 -phred33 %inputfiles% %outputtrim% LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 
 echo "2-TRIMMING finishes: $(date)"
