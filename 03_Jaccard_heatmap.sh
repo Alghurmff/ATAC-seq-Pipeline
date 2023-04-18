@@ -10,9 +10,9 @@
 
 
 #Input directory BAM files
-In_Dir="/Users/mashael/Dropbox_kaust/Thesis_project/consensus/bed"
+In_Dir="project/consensus/bed"
 #Output directory
-Out_Dir="/Users/mashael/Dropbox_kaust/Thesis_project/consensus/bed"
+Out_Dir="project/consensus/bed"
 
 # Measuring dataset similarity (Jaccard)
 # https://github.com/arq5x/bedtools-protocols/blob/master/bedtools.md#bp6--measuring-dataset-similarity
@@ -20,7 +20,6 @@ Out_Dir="/Users/mashael/Dropbox_kaust/Thesis_project/consensus/bed"
 
 file_labels=`ls $In_Dir | grep .bed`
 
-#file_labels=$file_labels!=consensus_cell_types.bed
 
     echo name" "$file_labels > $Out_Dir/pairwise_jaccard.txt
     for file1 in `ls $In_Dir | grep .bed`
