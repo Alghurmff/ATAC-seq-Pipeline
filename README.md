@@ -17,7 +17,7 @@ Table of Contents
 
 ## Description 
 
-In this repository, you can fin bulk ATAC-seq script for healthy human bone marrow samples.
+In this repository, you can find bulk ATAC-seq script for healthy human bone marrow samples.
 This ATAC-seq pipeline is both straightforward and reproducible, covering everything from raw FASTQ files to transcription factor activity and generating a signal track file (bigwig). It can handle both single-end and paired-end data. Detailed error reporting is provided, and the pipeline allows for the easy resumption of interrupted runs. This pipeline is run using Linux and R.
 
 The figure below provides an overview of all the steps involved, along with the corresponding tools and programming language.
