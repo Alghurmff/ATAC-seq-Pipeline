@@ -116,6 +116,10 @@ bash 00_runATAC.sh "sample_name"
 ```
 After that, all the files and reports will be generated for each sample.
 
+**Genome Browser** 
+
+You can use the links in the ATAC_BM_TrackHub.odt, which are bigwig files for each cell type and visualize the peaks in the genome browser.
+
  
 ### Consensus peaks
 First, merge all narrowpeak files for each cell type to use it for consensus peak and then run the **(02_consensus_peaks.Rmd)** file in R.
