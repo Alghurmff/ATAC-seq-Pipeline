@@ -2,7 +2,7 @@
 
 ## Description 
 
-This ATAC-seq pipeline is both straightforward and reproducible, covering everything from raw FASTQ files to transcription factor activity and generating a signal track file (bigwig). It can handle both single-end and paired-end data. Detailed error reporting is provided, and the pipeline allows for easy resumption of interrupted runs. This pipeline is run using Linux and R.
+This ATAC-seq pipeline is both straightforward and reproducible, covering everything from raw FASTQ files to transcription factor activity and generating a signal track file (bigwig). It can handle both single-end and paired-end data. Detailed error reporting is provided, and the pipeline allows for the easy resumption of interrupted runs. This pipeline is run using Linux and R.
 
 The figure below provides an overview of all the steps involved, along with the corresponding tools and programming language.
 
@@ -18,7 +18,7 @@ The figure below provides an overview of all the steps involved, along with the 
 * Alignment 
 bowtie2/2.3.5
 
-* Convert sam to bam , sorting and indexing , mark duplicate QC and filtering 
+* Convert sam to bam, sorting and indexing, mark duplicate QC and filtering 
 samtools/1.8
 
 * Mark duplicate 
@@ -88,24 +88,24 @@ BSgenome.Hsapiens.UCSC.hg38_1.4.5
 
 ## Quick Start
 
-Open **(00_runATAC.sh)** in a text editor and make the necessary changes by editing the path according to your file, updating the tools and files or variables name. After that go to **(01_templateATAC.sh)** and make sure that the changes you made in runATAC.sh is updated in the template. 
+Open **(00_runATAC.sh)** in a text editor and make the necessary changes by editing the path according to your file, and updating the tools and files or variables name. After that go to **(01_templateATAC.sh)** and make sure that the changes you made in runATAC.sh are updated in the template. 
 
 ### From FASTQC to peak calling
 
-To run the script from FASTQC to peak calling for each sample do the followin:
+To run the script from FASTQC to peak calling for each sample do the following:
 ```
 bash 00_runATAC.sh "sample_name"
 ```
-After that all the files and reports will be generated for ech samples.
+After that, all the files and reports will be generated for each sample.
 
  
 ### Consensus peaks
-First merge all narrowpeak files to use it for consensus peak and then run the **(02_consensus_peaks.Rmd)** file.
+First, merge all narrowpeak files to use it for consensus peak and then run the **(02_consensus_peaks.Rmd)** file.
 
-For consensus peaks QC, run **(03_Jaccard_heatmap.sh)** This will perform a loop between all bed files from different cell types in pairwise_jaccard.txt file. This file will be used in **(04_jaccard_samples.R)** to creat the jacccard heat map and mds similarity.
+For consensus peaks QC, run **(03_Jaccard_heatmap.sh)** This will perform a loop between all bed files from different cell types in the pairwise_jaccard.txt file. This file will be used in **(04_jaccard_samples.R)** to create the jacccard heat map and MDS similarity.
 
 ### Count table
-Before doing the peak annotation we need to do count table to get the peaks that overlap between clean.bam files from all samples bed file for all cell type using bash script **(05_bedCount.sh)** with the function multicov. 
+Before doing the peak annotation we need to do a count table to get the peaks that overlap between clean.bam files from all samples bed files for all cell types using bash script **(05_bedCount.sh)** with the function multicov. 
 
 
 ### Peak annotation 
@@ -114,7 +114,7 @@ Before doing the peak annotation we need to do count table to get the peaks that
 
 ### Transcription factor activity
 
- (07_chromVAR_TF .R) which has a detailed explination of the process
+**(07_chromVAR_TF .R)** which has a detailed explanation of the process
 
 
 
