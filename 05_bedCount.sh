@@ -32,11 +32,10 @@ module load bedtools/2.29.0
 
 # for all cell types: 
 filenames=$(ls /ibex/alghurmf/bulkAtac/*/04bam/*.clean.bam | grep "HSC\|CLP\|proB\|preB\|PreProB\|ImmatureB\|neutrophils")
-bed_file="/ibex/scratch/alghurmf/bulkAtac/BedCount/Allconsensus_cell_types.bed"
+bed_file="bulkAtac/BedCount/Allconsensus_cell_types.bed"
 
-Out_Dir="/ibex/scratch/alghurmf/bulkAtac/BedCount"   # path of output folder
+Out_Dir="bulkAtac/BedCount"   # path of output folder
 
-##/bedtools2/bin/bedtools multicov -bams $filenames -bed $bed_file -D > $Out_Dir/count_table.txt
 bedtools multicov -bams $filenames -bed $bed_file  -D > $Out_Dir/count_table.txt
 
 
