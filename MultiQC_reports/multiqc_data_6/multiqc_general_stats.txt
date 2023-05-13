@@ -1,0 +1,19 @@
+Sample	Samtools_mqc-generalstats-samtools-flagstat_total	Samtools_mqc-generalstats-samtools-mapped_passed	MACS2_mqc-generalstats-macs2-d	MACS2_mqc-generalstats-macs2-treatment_redundant_rate	Picard_mqc-generalstats-picard-PERCENT_DUPLICATION	Trimmomatic_mqc-generalstats-trimmomatic-dropped_pct	FastQC_mqc-generalstats-fastqc-percent_duplicates	FastQC_mqc-generalstats-fastqc-percent_gc	FastQC_mqc-generalstats-fastqc-avg_sequence_length	FastQC_mqc-generalstats-fastqc-percent_fails	FastQC_mqc-generalstats-fastqc-total_sequences	Bowtie 2 / HiSAT2_mqc-generalstats-bowtie_2_hisat2-overall_alignment_rate
+SRR11727638	15360816	15360816	281.0	0.0	0.042835							
+SRR11727638_1						0.32	9.316226783798527	46.0	38.0	10.0	9938057.0	
+SRR11727638_2							9.039750937938805	45.0	38.0	10.0	9938057.0	
+SRR11727638_bulkATAC.err												96.81
+SRR11727638_trim1							8.742718489191901	45.0	37.95073104615361	10.0	9572925.0	
+SRR11727638_trim2							8.498893180285393	45.0	37.92892026209335	10.0	9572925.0	
+SRR11727639	14016223	14016223	111.0	0.0	0.74077							
+SRR11727639_1						0.33	77.6827436199914	52.0	38.0	20.0	37247266.0	
+SRR11727639_2							76.34120131637943	52.0	38.0	20.0	37247266.0	
+SRR11727639_bulkATAC.err												98.3
+SRR11727639_trim1							75.74422974361033	51.0	37.951329242461455	20.0	35751303.0	
+SRR11727639_trim2							75.10548560404058	51.0	37.9435512322446	20.0	35751303.0	
+SRR11727640	30751101	30751101	152.0	0.0	0.579472							
+SRR11727640_1						0.24	63.21592981010527	47.0	38.0	20.0	46950072.0	
+SRR11727640_2							61.98406967198596	47.0	38.0	20.0	46950072.0	
+SRR11727640_bulkATAC.err												98.98
+SRR11727640_trim1							61.31349571002173	47.0	37.96039253363071	20.0	45582744.0	
+SRR11727640_trim2							60.17976116967616	47.0	37.952151871330955	20.0	45582744.0	

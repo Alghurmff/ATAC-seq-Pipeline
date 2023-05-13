@@ -1,0 +1,10 @@
+Sample	total_passed	total_failed	secondary_passed	secondary_failed	supplementary_passed	supplementary_failed	duplicates_passed	duplicates_failed	mapped_passed	mapped_failed	mapped_passed_pct	mapped_failed_pct	paired in sequencing_passed	paired in sequencing_failed	read1_passed	read1_failed	read2_passed	read2_failed	properly paired_passed	properly paired_failed	properly paired_passed_pct	properly paired_failed_pct	with itself and mate mapped_passed	with itself and mate mapped_failed	singletons_passed	singletons_failed	singletons_passed_pct	singletons_failed_pct	with mate mapped to a different chr_passed	with mate mapped to a different chr_failed	with mate mapped to a different chr (mapQ >= 5)_passed	with mate mapped to a different chr (mapQ >= 5)_failed	flagstat_total
+CLP_ATAC_D210_S7	13694806	0	0	0	0	0	1304158	0	13431990	0	98.08	nan	13694806	0	6847403	0	6847403	0	13431990	0	98.08	nan	13431990	0	0	0	0.0	nan	0	0	0	0	13694806
+CLP_ATAC_D211_S50	15676456	0	0	0	0	0	1256720	0	15095208	0	96.29	nan	15676456	0	7838228	0	7838228	0	15095208	0	96.29	nan	15095208	0	0	0	0.0	nan	0	0	0	0	15676456
+CLP_ATAC_D212_S38	10397108	0	0	0	0	0	0	0	10397108	0	100.0	nan	10397108	0	5198550	0	5198558	0	10397108	0	100.0	nan	10397108	0	0	0	0.0	nan	0	0	0	0	10397108
+CLP_ATAC_D213_S26	14118334	0	0	0	0	0	1207726	0	12976180	0	91.91	nan	14118334	0	7059167	0	7059167	0	12976180	0	91.91	nan	12976180	0	0	0	0.0	nan	0	0	0	0	14118334
+CLP_ATAC_D214_S14	8269975	0	0	0	0	0	0	0	8269975	0	100.0	nan	8269975	0	4134989	0	4134986	0	8269975	0	100.0	nan	8269975	0	0	0	0.0	nan	0	0	0	0	8269975
+CLP_ATAC_D215_S2	11113133	0	0	0	0	0	0	0	11113133	0	100.0	nan	11113133	0	5556575	0	5556558	0	11113133	0	100.0	nan	11113133	0	0	0	0.0	nan	0	0	0	0	11113133
+D201CLP_S22	10014429	0	0	0	0	0	0	0	10014429	0	100.0	nan	10014429	0	5007212	0	5007217	0	10014429	0	100.0	nan	10014429	0	0	0	0.0	nan	0	0	0	0	10014429
+D202CLP_S34	14837992	0	0	0	0	0	0	0	14837992	0	100.0	nan	14837992	0	7419004	0	7418988	0	14837992	0	100.0	nan	14837992	0	0	0	0.0	nan	0	0	0	0	14837992
+D2206-2_S12	9681556	0	0	0	0	0	476694	0	8625300	0	89.09	nan	9681556	0	4840778	0	4840778	0	8625300	0	89.09	nan	8625300	0	0	0	0.0	nan	0	0	0	0	9681556

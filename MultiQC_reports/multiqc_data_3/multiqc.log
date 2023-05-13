@@ -1,0 +1,533 @@
+[2023-03-05 11:00:24,923] multiqc                                            [DEBUG  ]  No MultiQC config found: /ibex/sw/csi/multiqc/1.9/el7.9_conda3/miniconda3/lib/python3.8/site-packages/multiqc_config.yaml
+[2023-03-05 11:00:24,924] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/alghurmf/.multiqc_config.yaml
+[2023-03-05 11:00:24,925] multiqc                                            [DEBUG  ]  No MultiQC config found: multiqc_config.yaml
+[2023-03-05 11:00:24,925] multiqc                                            [DEBUG  ]  Command used: /ibex/sw/csi/multiqc/1.9/el7.9_conda3/miniconda3/bin/multiqc /ibex/scratch/alghurmf/bulkAtac/D200preB_S12 /ibex/scratch/alghurmf/bulkAtac/D201preB_S24 /ibex/scratch/alghurmf/bulkAtac/D202preB_S36 /ibex/scratch/alghurmf/bulkAtac/D2206preB-4_S14 /ibex/scratch/alghurmf/bulkAtac/preB_ATAC_D210_S20 /ibex/scratch/alghurmf/bulkAtac/preB_ATAC_D211_S52 /ibex/scratch/alghurmf/bulkAtac/preB_ATAC_D212_S40 /ibex/scratch/alghurmf/bulkAtac/preB_ATAC_D213_S28 /ibex/scratch/alghurmf/bulkAtac/preB_ATAC_D214_S16 /ibex/scratch/alghurmf/bulkAtac/preB_ATAC_D215_S4
+[2023-03-05 11:00:25,412] multiqc                                            [WARNING]  MultiQC Version v1.14 now available!
+[2023-03-05 11:00:25,412] multiqc                                            [INFO   ]  This is MultiQC v1.9
+[2023-03-05 11:00:25,412] multiqc                                            [DEBUG  ]  Command     : /ibex/sw/csi/multiqc/1.9/el7.9_conda3/miniconda3/bin/multiqc /ibex/scratch/alghurmf/bulkAtac/D200preB_S12 /ibex/scratch/alghurmf/bulkAtac/D201preB_S24 /ibex/scratch/alghurmf/bulkAtac/D202preB_S36 /ibex/scratch/alghurmf/bulkAtac/D2206preB-4_S14 /ibex/scratch/alghurmf/bulkAtac/preB_ATAC_D210_S20 /ibex/scratch/alghurmf/bulkAtac/preB_ATAC_D211_S52 /ibex/scratch/alghurmf/bulkAtac/preB_ATAC_D212_S40 /ibex/scratch/alghurmf/bulkAtac/preB_ATAC_D213_S28 /ibex/scratch/alghurmf/bulkAtac/preB_ATAC_D214_S16 /ibex/scratch/alghurmf/bulkAtac/preB_ATAC_D215_S4
+[2023-03-05 11:00:25,412] multiqc                                            [DEBUG  ]  Working dir : /ibex/scratch/alghurmf/MultiQC
+[2023-03-05 11:00:25,412] multiqc                                            [INFO   ]  Template    : default
+[2023-03-05 11:00:25,412] multiqc                                            [DEBUG  ]  Running Python 3.8.5 (default, Sep  4 2020, 07:30:14)  [GCC 7.3.0]
+[2023-03-05 11:00:25,413] multiqc                                            [INFO   ]  Searching   : /ibex/scratch/alghurmf/bulkAtac/D200preB_S12
+[2023-03-05 11:00:25,413] multiqc                                            [INFO   ]  Searching   : /ibex/scratch/alghurmf/bulkAtac/D201preB_S24
+[2023-03-05 11:00:25,413] multiqc                                            [INFO   ]  Searching   : /ibex/scratch/alghurmf/bulkAtac/D202preB_S36
+[2023-03-05 11:00:25,413] multiqc                                            [INFO   ]  Searching   : /ibex/scratch/alghurmf/bulkAtac/D2206preB-4_S14
+[2023-03-05 11:00:25,413] multiqc                                            [INFO   ]  Searching   : /ibex/scratch/alghurmf/bulkAtac/preB_ATAC_D210_S20
+[2023-03-05 11:00:25,413] multiqc                                            [INFO   ]  Searching   : /ibex/scratch/alghurmf/bulkAtac/preB_ATAC_D211_S52
+[2023-03-05 11:00:25,413] multiqc                                            [INFO   ]  Searching   : /ibex/scratch/alghurmf/bulkAtac/preB_ATAC_D212_S40
+[2023-03-05 11:00:25,413] multiqc                                            [INFO   ]  Searching   : /ibex/scratch/alghurmf/bulkAtac/preB_ATAC_D213_S28
+[2023-03-05 11:00:25,413] multiqc                                            [INFO   ]  Searching   : /ibex/scratch/alghurmf/bulkAtac/preB_ATAC_D214_S16
+[2023-03-05 11:00:25,413] multiqc                                            [INFO   ]  Searching   : /ibex/scratch/alghurmf/bulkAtac/preB_ATAC_D215_S4
+[2023-03-05 11:00:25,414] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, conpair, peddy, somalier, methylQA, mosdepth, phantompeakqualtools, qualimap, preseq, quast, qorts, rna_seqc, rockhopper, rsem, rseqc, busco, goleft_indexcov, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, mirtop, homer, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, fgbio, dragen, dedup, damageprofiler, biobambam2, mtnucratio, picard, prokka, samblaster, samtools, sexdeterrmine, bamtools, jellyfish, vcftools, longranger, stacks, varscan2, bbmap, bismark, biscuit, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, snpsplit, kat, leehom, adapterRemoval, clipandmerge, cutadapt, flexbar, kaiju, kraken, malt, trimmomatic, sickle, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastp, fastqc, pycoqc, minionqc, multivcfanalyzer, clusterflow, bcl2fastq, interop, ivar, flash, seqyclean
+[2023-03-05 11:00:25,414] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmpbr97beyx
+[2023-03-05 11:00:25,540] multiqc                                            [DEBUG  ]  Ignoring directory as matched fn_ignore_dirs: /ibex/scratch/alghurmf/bulkAtac/D200preB_S12/multiqc_data
+[2023-03-05 11:00:25,543] multiqc                                            [DEBUG  ]  Ignoring directory as matched fn_ignore_dirs: /ibex/scratch/alghurmf/bulkAtac/D201preB_S24/multiqc_data
+[2023-03-05 11:00:25,545] multiqc                                            [DEBUG  ]  Ignoring directory as matched fn_ignore_dirs: /ibex/scratch/alghurmf/bulkAtac/D202preB_S36/multiqc_data
+[2023-03-05 11:00:25,547] multiqc                                            [DEBUG  ]  Ignoring directory as matched fn_ignore_dirs: /ibex/scratch/alghurmf/bulkAtac/D2206preB-4_S14/multiqc_data
+[2023-03-05 11:00:25,549] multiqc                                            [DEBUG  ]  Ignoring directory as matched fn_ignore_dirs: /ibex/scratch/alghurmf/bulkAtac/preB_ATAC_D210_S20/multiqc_data
+[2023-03-05 11:00:25,551] multiqc                                            [DEBUG  ]  Ignoring directory as matched fn_ignore_dirs: /ibex/scratch/alghurmf/bulkAtac/preB_ATAC_D211_S52/multiqc_data
+[2023-03-05 11:00:25,554] multiqc                                            [DEBUG  ]  Ignoring directory as matched fn_ignore_dirs: /ibex/scratch/alghurmf/bulkAtac/preB_ATAC_D212_S40/multiqc_data
+[2023-03-05 11:00:25,556] multiqc                                            [DEBUG  ]  Ignoring directory as matched fn_ignore_dirs: /ibex/scratch/alghurmf/bulkAtac/preB_ATAC_D213_S28/multiqc_data
+[2023-03-05 11:00:25,559] multiqc                                            [DEBUG  ]  Ignoring directory as matched fn_ignore_dirs: /ibex/scratch/alghurmf/bulkAtac/preB_ATAC_D214_S16/multiqc_data
+[2023-03-05 11:00:25,561] multiqc                                            [DEBUG  ]  Ignoring directory as matched fn_ignore_dirs: /ibex/scratch/alghurmf/bulkAtac/preB_ATAC_D215_S4/multiqc_data
+[2023-03-05 11:00:25,568] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: multiqc_report.html
+[2023-03-05 11:00:25,621] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: ._.DS_Store
+[2023-03-05 11:00:25,644] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: .DS_Store
+[2023-03-05 11:00:25,667] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: D200preB_S12_R1_001_fastqc.html
+[2023-03-05 11:00:25,678] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: D200preB_S12_R1_001_fastqc.html
+[2023-03-05 11:00:25,768] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: D200preB_S12_R2_001_fastqc.html
+[2023-03-05 11:00:25,778] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: D200preB_S12_R2_001_fastqc.html
+[2023-03-05 11:00:25,834] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D200preB_S12_U1.fastq.gz
+[2023-03-05 11:00:25,835] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D200preB_S12_trim2.fastq.gz
+[2023-03-05 11:00:25,835] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D200preB_S12_trim1.fastq.gz
+[2023-03-05 11:00:25,835] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D200preB_S12_U2.fastq.gz
+[2023-03-05 11:00:25,835] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D200preB_S12.filtered.bam
+[2023-03-05 11:00:25,835] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D200preB_S12.clean.bam.bai
+[2023-03-05 11:00:25,836] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D200preB_S12.sorted.bam
+[2023-03-05 11:00:25,836] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D200preB_S12.sam
+[2023-03-05 11:00:25,836] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D200preB_S12.blacklist.bam
+[2023-03-05 11:00:25,836] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D200preB_S12.filtered.bam.bai
+[2023-03-05 11:00:25,836] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D200preB_S12.clean.bam
+[2023-03-05 11:00:25,836] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D200preB_S12.sorted.bam.bai
+[2023-03-05 11:00:25,837] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D200preB_S12.markdup.bai
+[2023-03-05 11:00:25,861] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: D200preB_S12.markdup.txt
+[2023-03-05 11:00:25,993] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D200preB_S12.bam
+[2023-03-05 11:00:25,994] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D200preB_S12.markdup.bam
+[2023-03-05 11:00:26,029] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: D200preB_S12_trim2_fastqc.html
+[2023-03-05 11:00:26,044] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: D200preB_S12_trim2_fastqc.html
+[2023-03-05 11:00:26,157] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: D200preB_S12_trim1_fastqc.html
+[2023-03-05 11:00:26,171] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: D200preB_S12_trim1_fastqc.html
+[2023-03-05 11:00:26,360] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D200preB_S12_summits.bed
+[2023-03-05 11:00:26,389] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: D200preB_S12_peaks.narrowPeak
+[2023-03-05 11:00:26,404] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: D200preB_S12_peaks.narrowPeak
+[2023-03-05 11:00:26,404] multiqc                                            [DEBUG  ]  File ignored by rockhopper because it exceeded search pattern filesize limit: D200preB_S12_peaks.narrowPeak
+[2023-03-05 11:00:26,404] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: D200preB_S12_peaks.narrowPeak
+[2023-03-05 11:00:26,404] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: D200preB_S12_peaks.narrowPeak
+[2023-03-05 11:00:26,404] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: D200preB_S12_peaks.narrowPeak
+[2023-03-05 11:00:26,405] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: D200preB_S12_peaks.narrowPeak
+[2023-03-05 11:00:26,430] multiqc                                            [DEBUG  ]  File ignored by stacks/sumstats because it exceeded search pattern filesize limit: D200preB_S12_peaks.narrowPeak
+[2023-03-05 11:00:27,159] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: ._D200preB_S12.frip.txt
+[2023-03-05 11:00:27,264] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: D200preB_S12_bulkATAC.err
+[2023-03-05 11:00:27,275] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: D200preB_S12_bulkATAC.err
+[2023-03-05 11:00:27,337] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: D200preB_S12_bulkATAC.sh
+[2023-03-05 11:00:27,349] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: D200preB_S12_bulkATAC.sh
+[2023-03-05 11:00:27,380] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: multiqc_report.html
+[2023-03-05 11:00:27,409] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: ._.DS_Store
+[2023-03-05 11:00:27,426] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: .DS_Store
+[2023-03-05 11:00:27,450] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: D201preB_S24_R1_001_fastqc.html
+[2023-03-05 11:00:27,462] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: D201preB_S24_R1_001_fastqc.html
+[2023-03-05 11:00:27,551] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: D201preB_S24_R2_001_fastqc.html
+[2023-03-05 11:00:27,567] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: D201preB_S24_R2_001_fastqc.html
+[2023-03-05 11:00:27,634] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D201preB_S24_trim1.fastq.gz
+[2023-03-05 11:00:27,634] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D201preB_S24_trim2.fastq.gz
+[2023-03-05 11:00:27,634] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D201preB_S24_U1.fastq.gz
+[2023-03-05 11:00:27,634] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D201preB_S24_U2.fastq.gz
+[2023-03-05 11:00:27,635] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D201preB_S24.markdup.bai
+[2023-03-05 11:00:27,635] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D201preB_S24.clean.bam.bai
+[2023-03-05 11:00:27,635] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D201preB_S24.sorted.bam.bai
+[2023-03-05 11:00:27,635] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D201preB_S24.clean.bam
+[2023-03-05 11:00:27,636] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D201preB_S24.filtered.bam.bai
+[2023-03-05 11:00:27,636] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D201preB_S24.filtered.bam
+[2023-03-05 11:00:27,636] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D201preB_S24.bam
+[2023-03-05 11:00:27,636] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D201preB_S24.sam
+[2023-03-05 11:00:27,767] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: D201preB_S24.markdup.txt
+[2023-03-05 11:00:27,790] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D201preB_S24.blacklist.bam
+[2023-03-05 11:00:27,790] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D201preB_S24.sorted.bam
+[2023-03-05 11:00:27,791] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D201preB_S24.markdup.bam
+[2023-03-05 11:00:27,811] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: D201preB_S24_trim1_fastqc.html
+[2023-03-05 11:00:27,822] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: D201preB_S24_trim1_fastqc.html
+[2023-03-05 11:00:27,908] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: D201preB_S24_trim2_fastqc.html
+[2023-03-05 11:00:27,919] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: D201preB_S24_trim2_fastqc.html
+[2023-03-05 11:00:28,005] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: D201preB_S24_peaks.narrowPeak
+[2023-03-05 11:00:28,014] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: D201preB_S24_peaks.narrowPeak
+[2023-03-05 11:00:28,015] multiqc                                            [DEBUG  ]  File ignored by rockhopper because it exceeded search pattern filesize limit: D201preB_S24_peaks.narrowPeak
+[2023-03-05 11:00:28,015] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: D201preB_S24_peaks.narrowPeak
+[2023-03-05 11:00:28,015] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: D201preB_S24_peaks.narrowPeak
+[2023-03-05 11:00:28,015] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: D201preB_S24_peaks.narrowPeak
+[2023-03-05 11:00:28,015] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: D201preB_S24_peaks.narrowPeak
+[2023-03-05 11:00:28,033] multiqc                                            [DEBUG  ]  File ignored by stacks/sumstats because it exceeded search pattern filesize limit: D201preB_S24_peaks.narrowPeak
+[2023-03-05 11:00:28,636] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: ._D201preB_S24.frip.txt
+[2023-03-05 11:00:28,711] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D201preB_S24_summits.bed
+[2023-03-05 11:00:28,733] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: D201preB_S24_bulkATAC.sh
+[2023-03-05 11:00:28,742] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: D201preB_S24_bulkATAC.sh
+[2023-03-05 11:00:28,859] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: D201preB_S24_bulkATAC.err
+[2023-03-05 11:00:28,871] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: D201preB_S24_bulkATAC.err
+[2023-03-05 11:00:28,902] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: multiqc_report.html
+[2023-03-05 11:00:28,931] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: D202preB_S36_trim2_fastqc.html
+[2023-03-05 11:00:28,944] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: D202preB_S36_trim2_fastqc.html
+[2023-03-05 11:00:29,042] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: D202preB_S36_trim1_fastqc.html
+[2023-03-05 11:00:29,052] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: D202preB_S36_trim1_fastqc.html
+[2023-03-05 11:00:29,107] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D202preB_S36_summits.bed
+[2023-03-05 11:00:29,126] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: D202preB_S36_peaks.narrowPeak
+[2023-03-05 11:00:29,136] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: D202preB_S36_peaks.narrowPeak
+[2023-03-05 11:00:29,136] multiqc                                            [DEBUG  ]  File ignored by rockhopper because it exceeded search pattern filesize limit: D202preB_S36_peaks.narrowPeak
+[2023-03-05 11:00:29,136] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: D202preB_S36_peaks.narrowPeak
+[2023-03-05 11:00:29,136] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: D202preB_S36_peaks.narrowPeak
+[2023-03-05 11:00:29,136] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: D202preB_S36_peaks.narrowPeak
+[2023-03-05 11:00:29,136] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: D202preB_S36_peaks.narrowPeak
+[2023-03-05 11:00:29,160] multiqc                                            [DEBUG  ]  File ignored by stacks/sumstats because it exceeded search pattern filesize limit: D202preB_S36_peaks.narrowPeak
+[2023-03-05 11:00:30,090] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: D202preB_S36_R2_001_fastqc.html
+[2023-03-05 11:00:30,099] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: D202preB_S36_R2_001_fastqc.html
+[2023-03-05 11:00:30,171] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: D202preB_S36_R1_001_fastqc.html
+[2023-03-05 11:00:30,179] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: D202preB_S36_R1_001_fastqc.html
+[2023-03-05 11:00:30,232] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D202preB_S36_U2.fastq.gz
+[2023-03-05 11:00:30,232] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D202preB_S36_trim1.fastq.gz
+[2023-03-05 11:00:30,232] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D202preB_S36_U1.fastq.gz
+[2023-03-05 11:00:30,233] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D202preB_S36_trim2.fastq.gz
+[2023-03-05 11:00:30,279] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D202preB_S36.sorted.bam
+[2023-03-05 11:00:30,334] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D202preB_S36.clean.bam.bai
+[2023-03-05 11:00:30,334] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D202preB_S36.bam
+[2023-03-05 11:00:30,335] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D202preB_S36.markdup.bam
+[2023-03-05 11:00:30,335] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D202preB_S36.sam
+[2023-03-05 11:00:30,370] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: D202preB_S36.markdup.txt
+[2023-03-05 11:00:30,405] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D202preB_S36.sorted.bam.bai
+[2023-03-05 11:00:30,405] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D202preB_S36.filtered.bam.bai
+[2023-03-05 11:00:30,405] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D202preB_S36.markdup.bai
+[2023-03-05 11:00:30,406] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D202preB_S36.blacklist.bam
+[2023-03-05 11:00:30,406] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D202preB_S36.filtered.bam
+[2023-03-05 11:00:30,406] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D202preB_S36.clean.bam
+[2023-03-05 11:00:30,427] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: D202preB_S36_bulkATAC.sh
+[2023-03-05 11:00:30,437] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: D202preB_S36_bulkATAC.sh
+[2023-03-05 11:00:30,534] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: D202preB_S36_bulkATAC.err
+[2023-03-05 11:00:30,543] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: D202preB_S36_bulkATAC.err
+[2023-03-05 11:00:30,574] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: .DS_Store
+[2023-03-05 11:00:30,574] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: multiqc_report.html
+[2023-03-05 11:00:30,601] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: ._.DS_Store
+[2023-03-05 11:00:30,649] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: D2206-4_S14_trim1_fastqc.html
+[2023-03-05 11:00:30,661] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: D2206-4_S14_trim1_fastqc.html
+[2023-03-05 11:00:30,761] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: D2206-4_S14_trim2_fastqc.html
+[2023-03-05 11:00:30,776] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: D2206-4_S14_trim2_fastqc.html
+[2023-03-05 11:00:30,860] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: .DS_Store
+[2023-03-05 11:00:30,929] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: D2206-4_S14_preB_peaks.narrowPeak
+[2023-03-05 11:00:30,939] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: D2206-4_S14_preB_peaks.narrowPeak
+[2023-03-05 11:00:30,940] multiqc                                            [DEBUG  ]  File ignored by rockhopper because it exceeded search pattern filesize limit: D2206-4_S14_preB_peaks.narrowPeak
+[2023-03-05 11:00:30,940] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: D2206-4_S14_preB_peaks.narrowPeak
+[2023-03-05 11:00:30,940] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: D2206-4_S14_preB_peaks.narrowPeak
+[2023-03-05 11:00:30,940] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: D2206-4_S14_preB_peaks.narrowPeak
+[2023-03-05 11:00:30,940] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: D2206-4_S14_preB_peaks.narrowPeak
+[2023-03-05 11:00:30,981] multiqc                                            [DEBUG  ]  File ignored by stacks/sumstats because it exceeded search pattern filesize limit: D2206-4_S14_preB_peaks.narrowPeak
+[2023-03-05 11:00:31,601] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D2206-4_S14_summits.bed
+[2023-03-05 11:00:31,632] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: ._.DS_Store
+[2023-03-05 11:00:31,671] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: D2206-4_S14_R2_001_fastqc.html
+[2023-03-05 11:00:31,680] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: D2206-4_S14_R2_001_fastqc.html
+[2023-03-05 11:00:31,805] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: D2206-4_S14_R1_001_fastqc.html
+[2023-03-05 11:00:31,816] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: D2206-4_S14_R1_001_fastqc.html
+[2023-03-05 11:00:31,879] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D2206-4_S14_U1.fastq.gz
+[2023-03-05 11:00:31,879] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D2206-4_S14_trim2.fastq.gz
+[2023-03-05 11:00:31,880] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D2206-4_S14_trim1.fastq.gz
+[2023-03-05 11:00:31,880] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D2206-4_S14_U2.fastq.gz
+[2023-03-05 11:00:31,880] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D2206-4_S14.filtered.bam.bai
+[2023-03-05 11:00:31,880] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D2206-4_S14.sam
+[2023-03-05 11:00:31,880] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D2206-4_S14.sorted.bam.bai
+[2023-03-05 11:00:31,881] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D2206-4_S14.clean.bam.bai
+[2023-03-05 11:00:31,881] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D2206-4_S14.bam
+[2023-03-05 11:00:31,881] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D2206-4_S14.blacklist.bam
+[2023-03-05 11:00:31,928] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D2206-4_S14.filtered.bam
+[2023-03-05 11:00:31,929] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D2206-4_S14.markdup.bai
+[2023-03-05 11:00:31,929] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D2206-4_S14.clean.bam
+[2023-03-05 11:00:31,929] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D2206-4_S14.markdup.bam
+[2023-03-05 11:00:31,929] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D2206-4_S14.sorted.bam
+[2023-03-05 11:00:31,954] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: D2206-4_S14.markdup.txt
+[2023-03-05 11:00:32,045] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: D2206-4_S14_bulkATAC.sh
+[2023-03-05 11:00:32,054] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: D2206-4_S14_bulkATAC.sh
+[2023-03-05 11:00:32,155] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: D2206-4_S14_bulkATAC.err
+[2023-03-05 11:00:32,177] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: D2206-4_S14_bulkATAC.err
+[2023-03-05 11:00:32,209] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: multiqc_report.html
+[2023-03-05 11:00:32,210] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D210_S20_summits.bed
+[2023-03-05 11:00:32,241] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D210_S20_peaks.narrowPeak
+[2023-03-05 11:00:32,249] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D210_S20_peaks.narrowPeak
+[2023-03-05 11:00:32,250] multiqc                                            [DEBUG  ]  File ignored by rockhopper because it exceeded search pattern filesize limit: preB_ATAC_D210_S20_peaks.narrowPeak
+[2023-03-05 11:00:32,250] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: preB_ATAC_D210_S20_peaks.narrowPeak
+[2023-03-05 11:00:32,250] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: preB_ATAC_D210_S20_peaks.narrowPeak
+[2023-03-05 11:00:32,250] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: preB_ATAC_D210_S20_peaks.narrowPeak
+[2023-03-05 11:00:32,250] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: preB_ATAC_D210_S20_peaks.narrowPeak
+[2023-03-05 11:00:32,266] multiqc                                            [DEBUG  ]  File ignored by stacks/sumstats because it exceeded search pattern filesize limit: preB_ATAC_D210_S20_peaks.narrowPeak
+[2023-03-05 11:00:33,108] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D210_S20_trim1_fastqc.html
+[2023-03-05 11:00:33,117] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D210_S20_trim1_fastqc.html
+[2023-03-05 11:00:33,232] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D210_S20_trim2_fastqc.html
+[2023-03-05 11:00:33,245] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D210_S20_trim2_fastqc.html
+[2023-03-05 11:00:33,327] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D210_S20_U2.fastq.gz
+[2023-03-05 11:00:33,328] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D210_S20_trim1.fastq.gz
+[2023-03-05 11:00:33,329] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D210_S20_U1.fastq.gz
+[2023-03-05 11:00:33,329] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D210_S20_trim2.fastq.gz
+[2023-03-05 11:00:33,353] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D210_S20_R2_001_fastqc.html
+[2023-03-05 11:00:33,365] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D210_S20_R2_001_fastqc.html
+[2023-03-05 11:00:33,456] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D210_S20_R1_001_fastqc.html
+[2023-03-05 11:00:33,469] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D210_S20_R1_001_fastqc.html
+[2023-03-05 11:00:33,554] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D210_S20_bulkATAC.err
+[2023-03-05 11:00:33,563] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D210_S20_bulkATAC.err
+[2023-03-05 11:00:33,684] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D210_S20_bulkATAC.sh
+[2023-03-05 11:00:33,705] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D210_S20_bulkATAC.sh
+[2023-03-05 11:00:33,751] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D210_S20.bam
+[2023-03-05 11:00:33,751] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D210_S20.clean.bam.bai
+[2023-03-05 11:00:33,751] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D210_S20.filtered.bam
+[2023-03-05 11:00:33,751] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D210_S20.blacklist.bam
+[2023-03-05 11:00:33,752] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D210_S20.sam
+[2023-03-05 11:00:33,752] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D210_S20.filtered.bam.bai
+[2023-03-05 11:00:33,783] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D210_S20.markdup.txt
+[2023-03-05 11:00:33,806] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D210_S20.markdup.bai
+[2023-03-05 11:00:33,806] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D210_S20.clean.bam
+[2023-03-05 11:00:33,806] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D210_S20.markdup.bam
+[2023-03-05 11:00:33,807] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D210_S20.sorted.bam
+[2023-03-05 11:00:33,861] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D210_S20.sorted.bam.bai
+[2023-03-05 11:00:33,921] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: multiqc_report.html
+[2023-03-05 11:00:33,951] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D211_S52_R2_001_fastqc.html
+[2023-03-05 11:00:33,961] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D211_S52_R2_001_fastqc.html
+[2023-03-05 11:00:34,065] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D211_S52_R1_001_fastqc.html
+[2023-03-05 11:00:34,076] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D211_S52_R1_001_fastqc.html
+[2023-03-05 11:00:34,158] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D211_S52_U1.fastq.gz
+[2023-03-05 11:00:34,159] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D211_S52_trim1.fastq.gz
+[2023-03-05 11:00:34,159] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D211_S52_U2.fastq.gz
+[2023-03-05 11:00:34,160] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D211_S52_trim2.fastq.gz
+[2023-03-05 11:00:34,160] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D211_S52.filtered.bam.bai
+[2023-03-05 11:00:34,161] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D211_S52.blacklist.bam
+[2023-03-05 11:00:34,161] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D211_S52.sorted.bam.bai
+[2023-03-05 11:00:34,162] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D211_S52.bam
+[2023-03-05 11:00:34,214] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D211_S52.markdup.txt
+[2023-03-05 11:00:34,241] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D211_S52.markdup.bam
+[2023-03-05 11:00:34,241] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D211_S52.markdup.bai
+[2023-03-05 11:00:34,241] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D211_S52.sorted.bam
+[2023-03-05 11:00:34,242] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D211_S52.sam
+[2023-03-05 11:00:34,242] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D211_S52.filtered.bam
+[2023-03-05 11:00:34,242] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D211_S52.clean.bam.bai
+[2023-03-05 11:00:34,242] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D211_S52.clean.bam
+[2023-03-05 11:00:34,356] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D211_S52_trim2_fastqc.html
+[2023-03-05 11:00:34,367] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D211_S52_trim2_fastqc.html
+[2023-03-05 11:00:34,457] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D211_S52_trim1_fastqc.html
+[2023-03-05 11:00:34,471] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D211_S52_trim1_fastqc.html
+[2023-03-05 11:00:34,553] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D211_S52_summits.bed
+[2023-03-05 11:00:34,585] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D211_S52_peaks.narrowPeak
+[2023-03-05 11:00:34,594] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D211_S52_peaks.narrowPeak
+[2023-03-05 11:00:34,594] multiqc                                            [DEBUG  ]  File ignored by rockhopper because it exceeded search pattern filesize limit: preB_ATAC_D211_S52_peaks.narrowPeak
+[2023-03-05 11:00:34,594] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: preB_ATAC_D211_S52_peaks.narrowPeak
+[2023-03-05 11:00:34,594] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: preB_ATAC_D211_S52_peaks.narrowPeak
+[2023-03-05 11:00:34,594] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: preB_ATAC_D211_S52_peaks.narrowPeak
+[2023-03-05 11:00:34,594] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: preB_ATAC_D211_S52_peaks.narrowPeak
+[2023-03-05 11:00:34,609] multiqc                                            [DEBUG  ]  File ignored by stacks/sumstats because it exceeded search pattern filesize limit: preB_ATAC_D211_S52_peaks.narrowPeak
+[2023-03-05 11:00:35,361] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D211_S52_bulkATAC.sh
+[2023-03-05 11:00:35,370] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D211_S52_bulkATAC.sh
+[2023-03-05 11:00:35,420] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D211_S52_bulkATAC.err
+[2023-03-05 11:00:35,428] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D211_S52_bulkATAC.err
+[2023-03-05 11:00:35,501] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: multiqc_report.html
+[2023-03-05 11:00:35,522] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D212_S40_R1_001_fastqc.html
+[2023-03-05 11:00:35,533] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D212_S40_R1_001_fastqc.html
+[2023-03-05 11:00:35,614] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D212_S40_R2_001_fastqc.html
+[2023-03-05 11:00:35,624] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D212_S40_R2_001_fastqc.html
+[2023-03-05 11:00:35,672] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D212_S40_summits.bed
+[2023-03-05 11:00:35,695] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D212_S40_peaks.narrowPeak
+[2023-03-05 11:00:35,707] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D212_S40_peaks.narrowPeak
+[2023-03-05 11:00:35,708] multiqc                                            [DEBUG  ]  File ignored by rockhopper because it exceeded search pattern filesize limit: preB_ATAC_D212_S40_peaks.narrowPeak
+[2023-03-05 11:00:35,708] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: preB_ATAC_D212_S40_peaks.narrowPeak
+[2023-03-05 11:00:35,708] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: preB_ATAC_D212_S40_peaks.narrowPeak
+[2023-03-05 11:00:35,708] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: preB_ATAC_D212_S40_peaks.narrowPeak
+[2023-03-05 11:00:35,708] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: preB_ATAC_D212_S40_peaks.narrowPeak
+[2023-03-05 11:00:35,732] multiqc                                            [DEBUG  ]  File ignored by stacks/sumstats because it exceeded search pattern filesize limit: preB_ATAC_D212_S40_peaks.narrowPeak
+[2023-03-05 11:00:36,515] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D212_S40.clean.bam.bai
+[2023-03-05 11:00:36,516] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D212_S40.sorted.bam
+[2023-03-05 11:00:36,516] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D212_S40.filtered.bam
+[2023-03-05 11:00:36,516] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D212_S40.sorted.bam.bai
+[2023-03-05 11:00:36,573] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D212_S40.sam
+[2023-03-05 11:00:36,573] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D212_S40.filtered.bam.bai
+[2023-03-05 11:00:36,574] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D212_S40.markdup.bam
+[2023-03-05 11:00:36,574] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D212_S40.bam
+[2023-03-05 11:00:36,574] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D212_S40.markdup.bai
+[2023-03-05 11:00:36,575] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D212_S40.blacklist.bam
+[2023-03-05 11:00:36,610] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D212_S40.markdup.txt
+[2023-03-05 11:00:36,634] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D212_S40.clean.bam
+[2023-03-05 11:00:36,662] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D212_S40_trim1_fastqc.html
+[2023-03-05 11:00:36,671] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D212_S40_trim1_fastqc.html
+[2023-03-05 11:00:36,781] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D212_S40_trim2_fastqc.html
+[2023-03-05 11:00:36,795] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D212_S40_trim2_fastqc.html
+[2023-03-05 11:00:36,876] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D212_S40_bulkATAC.err
+[2023-03-05 11:00:36,884] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D212_S40_bulkATAC.err
+[2023-03-05 11:00:36,940] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D212_S40_bulkATAC.sh
+[2023-03-05 11:00:36,950] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D212_S40_bulkATAC.sh
+[2023-03-05 11:00:37,050] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D212_S40_trim1.fastq.gz
+[2023-03-05 11:00:37,050] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D212_S40_trim2.fastq.gz
+[2023-03-05 11:00:37,050] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D212_S40_U2.fastq.gz
+[2023-03-05 11:00:37,051] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D212_S40_U1.fastq.gz
+[2023-03-05 11:00:37,051] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: multiqc_report.html
+[2023-03-05 11:00:37,074] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D213_S28_trim2_fastqc.html
+[2023-03-05 11:00:37,083] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D213_S28_trim2_fastqc.html
+[2023-03-05 11:00:37,167] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D213_S28_trim1_fastqc.html
+[2023-03-05 11:00:37,176] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D213_S28_trim1_fastqc.html
+[2023-03-05 11:00:37,309] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D213_S28_peaks.narrowPeak
+[2023-03-05 11:00:37,321] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D213_S28_peaks.narrowPeak
+[2023-03-05 11:00:37,322] multiqc                                            [DEBUG  ]  File ignored by rockhopper because it exceeded search pattern filesize limit: preB_ATAC_D213_S28_peaks.narrowPeak
+[2023-03-05 11:00:37,322] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: preB_ATAC_D213_S28_peaks.narrowPeak
+[2023-03-05 11:00:37,322] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: preB_ATAC_D213_S28_peaks.narrowPeak
+[2023-03-05 11:00:37,322] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: preB_ATAC_D213_S28_peaks.narrowPeak
+[2023-03-05 11:00:37,322] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: preB_ATAC_D213_S28_peaks.narrowPeak
+[2023-03-05 11:00:37,380] multiqc                                            [DEBUG  ]  File ignored by stacks/sumstats because it exceeded search pattern filesize limit: preB_ATAC_D213_S28_peaks.narrowPeak
+[2023-03-05 11:00:38,168] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D213_S28_summits.bed
+[2023-03-05 11:00:38,201] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D213_S28_R2_001_fastqc.html
+[2023-03-05 11:00:38,214] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D213_S28_R2_001_fastqc.html
+[2023-03-05 11:00:38,332] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D213_S28_R1_001_fastqc.html
+[2023-03-05 11:00:38,350] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D213_S28_R1_001_fastqc.html
+[2023-03-05 11:00:38,450] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D213_S28_trim1.fastq.gz
+[2023-03-05 11:00:38,451] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D213_S28_U2.fastq.gz
+[2023-03-05 11:00:38,451] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D213_S28_U1.fastq.gz
+[2023-03-05 11:00:38,451] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D213_S28_trim2.fastq.gz
+[2023-03-05 11:00:38,452] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D213_S28.clean.bam
+[2023-03-05 11:00:38,452] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D213_S28.sorted.bam
+[2023-03-05 11:00:38,453] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D213_S28.filtered.bam.bai
+[2023-03-05 11:00:38,614] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D213_S28.markdup.txt
+[2023-03-05 11:00:38,640] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D213_S28.blacklist.bam
+[2023-03-05 11:00:38,640] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D213_S28.bam
+[2023-03-05 11:00:38,641] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D213_S28.clean.bam.bai
+[2023-03-05 11:00:38,641] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D213_S28.markdup.bai
+[2023-03-05 11:00:38,642] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D213_S28.markdup.bam
+[2023-03-05 11:00:38,642] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D213_S28.sorted.bam.bai
+[2023-03-05 11:00:38,642] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D213_S28.sam
+[2023-03-05 11:00:38,642] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D213_S28.filtered.bam
+[2023-03-05 11:00:38,757] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D213_S28_bulkATAC.err
+[2023-03-05 11:00:38,768] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D213_S28_bulkATAC.err
+[2023-03-05 11:00:38,829] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D213_S28_bulkATAC.sh
+[2023-03-05 11:00:38,838] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D213_S28_bulkATAC.sh
+[2023-03-05 11:00:38,937] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: multiqc_report.html
+[2023-03-05 11:00:38,986] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D214_S16_R1_001_fastqc.html
+[2023-03-05 11:00:38,998] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D214_S16_R1_001_fastqc.html
+[2023-03-05 11:00:39,100] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D214_S16_R2_001_fastqc.html
+[2023-03-05 11:00:39,109] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D214_S16_R2_001_fastqc.html
+[2023-03-05 11:00:39,178] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D214_S16_peaks.narrowPeak
+[2023-03-05 11:00:39,186] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D214_S16_peaks.narrowPeak
+[2023-03-05 11:00:39,186] multiqc                                            [DEBUG  ]  File ignored by rockhopper because it exceeded search pattern filesize limit: preB_ATAC_D214_S16_peaks.narrowPeak
+[2023-03-05 11:00:39,186] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: preB_ATAC_D214_S16_peaks.narrowPeak
+[2023-03-05 11:00:39,186] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: preB_ATAC_D214_S16_peaks.narrowPeak
+[2023-03-05 11:00:39,186] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: preB_ATAC_D214_S16_peaks.narrowPeak
+[2023-03-05 11:00:39,186] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: preB_ATAC_D214_S16_peaks.narrowPeak
+[2023-03-05 11:00:39,199] multiqc                                            [DEBUG  ]  File ignored by stacks/sumstats because it exceeded search pattern filesize limit: preB_ATAC_D214_S16_peaks.narrowPeak
+[2023-03-05 11:00:39,726] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D214_S16_summits.bed
+[2023-03-05 11:00:39,809] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D214_S16.markdup.txt
+[2023-03-05 11:00:39,835] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D214_S16.markdup.bai
+[2023-03-05 11:00:39,836] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D214_S16.clean.bam.bai
+[2023-03-05 11:00:39,837] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D214_S16.sam
+[2023-03-05 11:00:39,837] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D214_S16.filtered.bam.bai
+[2023-03-05 11:00:39,837] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D214_S16.sorted.bam.bai
+[2023-03-05 11:00:39,838] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D214_S16.clean.bam
+[2023-03-05 11:00:39,838] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D214_S16.filtered.bam
+[2023-03-05 11:00:39,838] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D214_S16.markdup.bam
+[2023-03-05 11:00:39,839] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D214_S16.blacklist.bam
+[2023-03-05 11:00:39,839] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D214_S16.bam
+[2023-03-05 11:00:39,943] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D214_S16.sorted.bam
+[2023-03-05 11:00:39,967] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D214_S16_trim1_fastqc.html
+[2023-03-05 11:00:39,977] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D214_S16_trim1_fastqc.html
+[2023-03-05 11:00:40,070] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D214_S16_trim2_fastqc.html
+[2023-03-05 11:00:40,081] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D214_S16_trim2_fastqc.html
+[2023-03-05 11:00:40,186] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D214_S16_bulkATAC.sh
+[2023-03-05 11:00:40,197] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D214_S16_bulkATAC.sh
+[2023-03-05 11:00:40,303] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D214_S16_bulkATAC.err
+[2023-03-05 11:00:40,311] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D214_S16_bulkATAC.err
+[2023-03-05 11:00:40,335] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D214_S16_U1.fastq.gz
+[2023-03-05 11:00:40,335] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D214_S16_trim1.fastq.gz
+[2023-03-05 11:00:40,335] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D214_S16_trim2.fastq.gz
+[2023-03-05 11:00:40,336] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D214_S16_U2.fastq.gz
+[2023-03-05 11:00:40,336] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: multiqc_report.html
+[2023-03-05 11:00:40,355] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D215_S4_trim2_fastqc.html
+[2023-03-05 11:00:40,366] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D215_S4_trim2_fastqc.html
+[2023-03-05 11:00:40,436] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D215_S4_trim1_fastqc.html
+[2023-03-05 11:00:40,466] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D215_S4_trim1_fastqc.html
+[2023-03-05 11:00:40,537] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D215_S4_bulkATAC.sh
+[2023-03-05 11:00:40,546] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D215_S4_bulkATAC.sh
+[2023-03-05 11:00:40,649] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D215_S4_bulkATAC.err
+[2023-03-05 11:00:40,657] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D215_S4_bulkATAC.err
+[2023-03-05 11:00:40,762] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D215_S4_peaks.narrowPeak
+[2023-03-05 11:00:40,774] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D215_S4_peaks.narrowPeak
+[2023-03-05 11:00:40,774] multiqc                                            [DEBUG  ]  File ignored by rockhopper because it exceeded search pattern filesize limit: preB_ATAC_D215_S4_peaks.narrowPeak
+[2023-03-05 11:00:40,774] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: preB_ATAC_D215_S4_peaks.narrowPeak
+[2023-03-05 11:00:40,774] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: preB_ATAC_D215_S4_peaks.narrowPeak
+[2023-03-05 11:00:40,774] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: preB_ATAC_D215_S4_peaks.narrowPeak
+[2023-03-05 11:00:40,774] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: preB_ATAC_D215_S4_peaks.narrowPeak
+[2023-03-05 11:00:40,798] multiqc                                            [DEBUG  ]  File ignored by stacks/sumstats because it exceeded search pattern filesize limit: preB_ATAC_D215_S4_peaks.narrowPeak
+[2023-03-05 11:00:41,308] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D215_S4_summits.bed
+[2023-03-05 11:00:41,328] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D215_S4_R2_001_fastqc.html
+[2023-03-05 11:00:41,341] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D215_S4_R2_001_fastqc.html
+[2023-03-05 11:00:41,409] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: preB_ATAC_D215_S4_R1_001_fastqc.html
+[2023-03-05 11:00:41,420] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D215_S4_R1_001_fastqc.html
+[2023-03-05 11:00:41,502] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D215_S4.blacklist.bam
+[2023-03-05 11:00:41,502] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D215_S4.markdup.bam
+[2023-03-05 11:00:41,503] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D215_S4.bam
+[2023-03-05 11:00:41,503] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D215_S4.sorted.bam.bai
+[2023-03-05 11:00:41,503] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D215_S4.sam
+[2023-03-05 11:00:41,504] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D215_S4.filtered.bam.bai
+[2023-03-05 11:00:41,594] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: preB_ATAC_D215_S4.markdup.txt
+[2023-03-05 11:00:41,614] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D215_S4.clean.bam.bai
+[2023-03-05 11:00:41,615] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D215_S4.filtered.bam
+[2023-03-05 11:00:41,667] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D215_S4.markdup.bai
+[2023-03-05 11:00:41,668] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D215_S4.clean.bam
+[2023-03-05 11:00:41,668] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D215_S4.sorted.bam
+[2023-03-05 11:00:41,669] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D215_S4_trim1.fastq.gz
+[2023-03-05 11:00:41,669] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D215_S4_U1.fastq.gz
+[2023-03-05 11:00:41,670] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D215_S4_U2.fastq.gz
+[2023-03-05 11:00:41,670] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: preB_ATAC_D215_S4_trim2.fastq.gz
+[2023-03-05 11:00:42,336] multiqc.plots.bargraph                             [DEBUG  ]  Using matplotlib version 3.2.2
+[2023-03-05 11:00:42,338] multiqc.plots.linegraph                            [DEBUG  ]  Using matplotlib version 3.2.2
+[2023-03-05 11:00:42,341] multiqc                                            [DEBUG  ]  No samples found: custom_content
+[2023-03-05 11:00:42,347] multiqc                                            [DEBUG  ]  No samples found: conpair
+[2023-03-05 11:00:42,358] multiqc                                            [DEBUG  ]  No samples found: peddy
+[2023-03-05 11:00:42,417] multiqc                                            [DEBUG  ]  No samples found: somalier
+[2023-03-05 11:00:42,424] multiqc                                            [DEBUG  ]  No samples found: methylQA
+[2023-03-05 11:00:42,436] multiqc                                            [DEBUG  ]  No samples found: mosdepth
+[2023-03-05 11:00:42,443] multiqc                                            [DEBUG  ]  No samples found: phantompeakqualtools
+[2023-03-05 11:00:42,452] multiqc                                            [DEBUG  ]  No samples found: qualimap
+[2023-03-05 11:00:42,464] multiqc                                            [DEBUG  ]  No samples found: preseq
+[2023-03-05 11:00:42,476] multiqc                                            [DEBUG  ]  No samples found: quast
+[2023-03-05 11:00:42,488] multiqc                                            [DEBUG  ]  No samples found: qorts
+[2023-03-05 11:00:42,504] multiqc                                            [DEBUG  ]  No samples found: rna_seqc
+[2023-03-05 11:00:42,515] multiqc                                            [DEBUG  ]  No samples found: rockhopper
+[2023-03-05 11:00:42,526] multiqc                                            [DEBUG  ]  No samples found: rsem
+[2023-03-05 11:00:42,555] multiqc                                            [DEBUG  ]  No samples found: rseqc
+[2023-03-05 11:00:42,563] multiqc                                            [DEBUG  ]  No samples found: busco
+[2023-03-05 11:00:42,574] multiqc                                            [DEBUG  ]  No samples found: goleft_indexcov
+[2023-03-05 11:00:42,584] multiqc                                            [DEBUG  ]  No samples found: disambiguate
+[2023-03-05 11:00:42,597] multiqc                                            [DEBUG  ]  No samples found: supernova
+[2023-03-05 11:00:42,626] multiqc                                            [DEBUG  ]  No samples found: deeptools
+[2023-03-05 11:00:42,638] multiqc                                            [DEBUG  ]  No samples found: sargasso
+[2023-03-05 11:00:42,649] multiqc                                            [DEBUG  ]  No samples found: verifybamid
+[2023-03-05 11:00:42,658] multiqc                                            [DEBUG  ]  No samples found: mirtrace
+[2023-03-05 11:00:42,666] multiqc                                            [DEBUG  ]  No samples found: happy
+[2023-03-05 11:00:42,675] multiqc                                            [DEBUG  ]  No samples found: mirtop
+[2023-03-05 11:00:42,685] multiqc                                            [DEBUG  ]  No samples found: homer
+[2023-03-05 11:00:42,990] multiqc.modules.macs2.macs2                        [INFO   ]  Found 10 logs
+[2023-03-05 11:00:43,000] multiqc                                            [DEBUG  ]  No samples found: theta2
+[2023-03-05 11:00:43,010] multiqc                                            [DEBUG  ]  No samples found: snpeff
+[2023-03-05 11:00:43,022] multiqc                                            [DEBUG  ]  No samples found: gatk
+[2023-03-05 11:00:43,029] multiqc                                            [DEBUG  ]  No samples found: htseq
+[2023-03-05 11:00:43,039] multiqc                                            [DEBUG  ]  No samples found: bcftools
+[2023-03-05 11:00:43,046] multiqc                                            [DEBUG  ]  No samples found: featureCounts
+[2023-03-05 11:00:43,058] multiqc                                            [DEBUG  ]  No samples found: fgbio
+[2023-03-05 11:00:43,081] multiqc                                            [DEBUG  ]  No samples found: dragen
+[2023-03-05 11:00:43,090] multiqc                                            [DEBUG  ]  No samples found: dedup
+[2023-03-05 11:00:43,101] multiqc                                            [DEBUG  ]  No samples found: damageprofiler
+[2023-03-05 11:00:43,142] multiqc                                            [DEBUG  ]  No samples found: biobambam2
+[2023-03-05 11:00:43,154] multiqc                                            [DEBUG  ]  No samples found: mtnucratio
+[2023-03-05 11:00:43,185] multiqc.modules.picard.picard                      [INFO   ]  Found 10 MarkDuplicates reports
+[2023-03-05 11:00:43,203] multiqc                                            [DEBUG  ]  No samples found: prokka
+[2023-03-05 11:00:43,211] multiqc                                            [DEBUG  ]  No samples found: samblaster
+[2023-03-05 11:00:43,228] multiqc.modules.samtools.flagstat                  [DEBUG  ]  Duplicate sample name found! Overwriting: D200preB_S12
+[2023-03-05 11:00:43,237] multiqc.modules.samtools.flagstat                  [DEBUG  ]  Duplicate sample name found! Overwriting: D201preB_S24
+[2023-03-05 11:00:43,238] multiqc.modules.samtools.flagstat                  [DEBUG  ]  Duplicate sample name found! Overwriting: D202preB_S36
+[2023-03-05 11:00:43,240] multiqc.modules.samtools.flagstat                  [DEBUG  ]  Duplicate sample name found! Overwriting: D2206-4_S14
+[2023-03-05 11:00:43,241] multiqc.modules.samtools.flagstat                  [DEBUG  ]  Duplicate sample name found! Overwriting: preB_ATAC_D210_S20
+[2023-03-05 11:00:43,243] multiqc.modules.samtools.flagstat                  [DEBUG  ]  Duplicate sample name found! Overwriting: preB_ATAC_D211_S52
+[2023-03-05 11:00:43,244] multiqc.modules.samtools.flagstat                  [DEBUG  ]  Duplicate sample name found! Overwriting: preB_ATAC_D212_S40
+[2023-03-05 11:00:43,246] multiqc.modules.samtools.flagstat                  [DEBUG  ]  Duplicate sample name found! Overwriting: preB_ATAC_D213_S28
+[2023-03-05 11:00:43,247] multiqc.modules.samtools.flagstat                  [DEBUG  ]  Duplicate sample name found! Overwriting: preB_ATAC_D214_S16
+[2023-03-05 11:00:43,249] multiqc.modules.samtools.flagstat                  [DEBUG  ]  Duplicate sample name found! Overwriting: preB_ATAC_D215_S4
+[2023-03-05 11:00:43,251] multiqc.modules.samtools.samtools                  [INFO   ]  Found 10 flagstat reports
+[2023-03-05 11:00:43,263] multiqc                                            [DEBUG  ]  No samples found: sexdeterrmine
+[2023-03-05 11:00:43,272] multiqc                                            [DEBUG  ]  No samples found: bamtools
+[2023-03-05 11:00:43,277] multiqc                                            [DEBUG  ]  No samples found: jellyfish
+[2023-03-05 11:00:43,290] multiqc                                            [DEBUG  ]  No samples found: vcftools
+[2023-03-05 11:00:43,296] multiqc                                            [DEBUG  ]  No samples found: longranger
+[2023-03-05 11:00:43,302] multiqc                                            [DEBUG  ]  No samples found: stacks
+[2023-03-05 11:00:43,307] multiqc                                            [DEBUG  ]  No samples found: varscan2
+[2023-03-05 11:00:43,332] multiqc                                            [DEBUG  ]  No samples found: bbmap
+[2023-03-05 11:00:43,338] multiqc                                            [DEBUG  ]  No samples found: bismark
+[2023-03-05 11:00:43,345] multiqc                                            [DEBUG  ]  No samples found: biscuit
+[2023-03-05 11:00:43,354] multiqc                                            [DEBUG  ]  No samples found: hicexplorer
+[2023-03-05 11:00:43,360] multiqc                                            [DEBUG  ]  No samples found: hicup
+[2023-03-05 11:00:43,366] multiqc                                            [DEBUG  ]  No samples found: hicpro
+[2023-03-05 11:00:43,372] multiqc                                            [DEBUG  ]  No samples found: salmon
+[2023-03-05 11:00:43,378] multiqc                                            [DEBUG  ]  No samples found: kallisto
+[2023-03-05 11:00:43,384] multiqc                                            [DEBUG  ]  No samples found: slamdunk
+[2023-03-05 11:00:43,389] multiqc                                            [DEBUG  ]  No samples found: star
+[2023-03-05 11:00:43,394] multiqc                                            [DEBUG  ]  No samples found: hisat2
+[2023-03-05 11:00:43,400] multiqc                                            [DEBUG  ]  No samples found: tophat
+[2023-03-05 11:00:43,479] multiqc.modules.bowtie2.bowtie2                    [INFO   ]  Found 10 reports
+[2023-03-05 11:00:43,487] multiqc                                            [DEBUG  ]  No samples found: bowtie1
+[2023-03-05 11:00:43,493] multiqc                                            [DEBUG  ]  No samples found: snpsplit
+[2023-03-05 11:00:43,497] multiqc                                            [DEBUG  ]  No samples found: kat
+[2023-03-05 11:00:43,503] multiqc                                            [DEBUG  ]  No samples found: leehom
+[2023-03-05 11:00:43,508] multiqc                                            [DEBUG  ]  No samples found: adapterRemoval
+[2023-03-05 11:00:43,513] multiqc                                            [DEBUG  ]  No samples found: clipandmerge
+[2023-03-05 11:00:43,519] multiqc                                            [DEBUG  ]  No samples found: cutadapt
+[2023-03-05 11:00:43,526] multiqc                                            [DEBUG  ]  No samples found: flexbar
+[2023-03-05 11:00:43,531] multiqc                                            [DEBUG  ]  No samples found: kaiju
+[2023-03-05 11:00:43,541] multiqc                                            [DEBUG  ]  No samples found: kraken
+[2023-03-05 11:00:43,546] multiqc                                            [DEBUG  ]  No samples found: malt
+[2023-03-05 11:00:43,569] multiqc.modules.trimmomatic.trimmomatic            [INFO   ]  Found 10 logs
+[2023-03-05 11:00:43,576] multiqc                                            [DEBUG  ]  No samples found: sickle
+[2023-03-05 11:00:43,584] multiqc                                            [DEBUG  ]  No samples found: skewer
+[2023-03-05 11:00:43,594] multiqc                                            [DEBUG  ]  No samples found: sortmerna
+[2023-03-05 11:00:43,600] multiqc                                            [DEBUG  ]  No samples found: biobloomtools
+[2023-03-05 11:00:43,607] multiqc                                            [DEBUG  ]  No samples found: fastq_screen
+[2023-03-05 11:00:43,613] multiqc                                            [DEBUG  ]  No samples found: afterqc
+[2023-03-05 11:00:43,621] multiqc                                            [DEBUG  ]  No samples found: fastp
+[2023-03-05 11:00:46,195] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 40 reports
+[2023-03-05 11:00:46,452] multiqc                                            [DEBUG  ]  No samples found: pycoqc
+[2023-03-05 11:00:46,457] multiqc                                            [DEBUG  ]  No samples found: minionqc
+[2023-03-05 11:00:46,464] multiqc                                            [DEBUG  ]  No samples found: multivcfanalyzer
+[2023-03-05 11:00:46,470] multiqc                                            [DEBUG  ]  No samples found: clusterflow
+[2023-03-05 11:00:46,476] multiqc                                            [DEBUG  ]  No samples found: bcl2fastq
+[2023-03-05 11:00:46,484] multiqc                                            [DEBUG  ]  No samples found: interop
+[2023-03-05 11:00:46,491] multiqc                                            [DEBUG  ]  No samples found: ivar
+[2023-03-05 11:00:46,496] multiqc                                            [DEBUG  ]  No samples found: flash
+[2023-03-05 11:00:46,510] multiqc                                            [DEBUG  ]  No samples found: seqyclean
+[2023-03-05 11:00:46,574] multiqc                                            [INFO   ]  Compressing plot data
+[2023-03-05 11:00:47,087] multiqc                                            [WARNING]  Previous MultiQC output found! Adjusting filenames..
+[2023-03-05 11:00:47,088] multiqc                                            [WARNING]  Use -f or --force to overwrite existing reports instead
+[2023-03-05 11:00:47,088] multiqc                                            [INFO   ]  Report      : multiqc_report_3.html
+[2023-03-05 11:00:47,088] multiqc                                            [INFO   ]  Data        : multiqc_data_3
+[2023-03-05 11:00:47,088] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpbr97beyx/multiqc_data' to '/ibex/scratch/alghurmf/MultiQC/multiqc_data_3'
+[2023-03-05 11:00:47,280] multiqc                                            [INFO   ]  MultiQC complete

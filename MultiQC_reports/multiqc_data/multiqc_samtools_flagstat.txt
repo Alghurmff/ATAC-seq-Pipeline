@@ -1,0 +1,10 @@
+Sample	total_passed	total_failed	secondary_passed	secondary_failed	supplementary_passed	supplementary_failed	duplicates_passed	duplicates_failed	mapped_passed	mapped_failed	mapped_passed_pct	mapped_failed_pct	paired in sequencing_passed	paired in sequencing_failed	read1_passed	read1_failed	read2_passed	read2_failed	properly paired_passed	properly paired_failed	properly paired_passed_pct	properly paired_failed_pct	with itself and mate mapped_passed	with itself and mate mapped_failed	singletons_passed	singletons_failed	singletons_passed_pct	singletons_failed_pct	with mate mapped to a different chr_passed	with mate mapped to a different chr_failed	with mate mapped to a different chr (mapQ >= 5)_passed	with mate mapped to a different chr (mapQ >= 5)_failed	flagstat_total
+D200HSC_S9	11473292	0	0	0	0	0	0	0	11473292	0	100.0	nan	11473292	0	5736644	0	5736648	0	11473292	0	100.0	nan	11473292	0	0	0	0.0	nan	0	0	0	0	11473292
+D202HSC_S33	9201316	0	0	0	0	0	0	0	9201316	0	100.0	nan	9201316	0	4600664	0	4600652	0	9201316	0	100.0	nan	9201316	0	0	0	0.0	nan	0	0	0	0	9201316
+D2206-1_S11	9255614	0	0	0	0	0	429756	0	8287070	0	89.54	nan	9255614	0	4627807	0	4627807	0	8287070	0	89.54	nan	8287070	0	0	0	0.0	nan	0	0	0	0	9255614
+HSC_ATAC_D210_S11	10099786	0	0	0	0	0	772628	0	9894110	0	97.96	nan	10099786	0	5049893	0	5049893	0	9894110	0	97.96	nan	9894110	0	0	0	0.0	nan	0	0	0	0	10099786
+HSC_ATAC_D211_S49	15842326	0	0	0	0	0	1889886	0	14402800	0	90.91	nan	15842326	0	7921163	0	7921163	0	14402800	0	90.91	nan	14402800	0	0	0	0.0	nan	0	0	0	0	15842326
+HSC_ATAC_D212_S37	19430462	0	0	0	0	0	2319574	0	18721226	0	96.35	nan	19430462	0	9715231	0	9715231	0	18721226	0	96.35	nan	18721226	0	0	0	0.0	nan	0	0	0	0	19430462
+HSC_ATAC_D213_S25	18215108	0	0	0	0	0	1745634	0	17023148	0	93.46	nan	18215108	0	9107554	0	9107554	0	17023148	0	93.46	nan	17023148	0	0	0	0.0	nan	0	0	0	0	18215108
+HSC_ATAC_D214_S13	20797756	0	0	0	0	0	3978582	0	20268774	0	97.46	nan	20797756	0	10398878	0	10398878	0	20268774	0	97.46	nan	20268774	0	0	0	0.0	nan	0	0	0	0	20797756
+HSC_ATAC_D215_S1	9345914	0	0	0	0	0	0	0	9345914	0	100.0	nan	9345914	0	4672957	0	4672957	0	9345914	0	100.0	nan	9345914	0	0	0	0.0	nan	0	0	0	0	9345914

@@ -1,0 +1,9 @@
+Sample	fragment_size	treatment_fragments_total	treatment_fragments_after_filtering	treatment_max_duplicates	treatment_redundant_rate	d
+D200inmature_S13	164.0	7385243.0	7385243.0	1.0	0.0	164.0
+D202inmature_S37	161.0	8013732.0	8013732.0	1.0	0.0	161.0
+D2206-5_S15	202.0	5939076.0	5939076.0	1.0	0.0	202.0
+ImmatureB_ATAC_D210_S12	209.0	4544897.0	4544897.0	1.0	0.0	209.0
+ImmatureB_ATAC_D211_S53	211.0	7220808.0	7220808.0	1.0	0.0	211.0
+ImmatureB_ATAC_D212_S41	205.0	6528589.0	6528589.0	1.0	0.0	205.0
+ImmatureB_ATAC_D213_S29	203.0	4090939.0	4090939.0	1.0	0.0	203.0
+ImmatureB_ATAC_D214_S17	209.0	3384947.0	3384947.0	1.0	0.0	209.0

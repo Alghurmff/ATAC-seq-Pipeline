@@ -1,0 +1,4 @@
+Sample	total_reads	paired_total	paired_aligned_none	paired_aligned_one	paired_aligned_multi	overall_alignment_rate
+SRR11727638_bulkATAC.err	9572925	9572925	305092	7334676	1933157	96.81
+SRR11727639_bulkATAC.err	35751303	35751303	606587	27479042	7665674	98.3
+SRR11727640_bulkATAC.err	45582744	45582744	462733	35288152	9831859	98.98

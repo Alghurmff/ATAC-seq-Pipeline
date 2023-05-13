@@ -1,0 +1,43 @@
+Module	Section	Sample Name	Source
+Picard	DuplicationMetrics	SRR8247848	/ibex/scratch/alghurmf/bulkAtac/SRR8247848_PreProB-progenitors/04bam/SRR8247848.markdup.txt
+Picard	DuplicationMetrics	SRR8247849	/ibex/scratch/alghurmf/bulkAtac/SRR8247849_PreProB-progenitors/04bam/SRR8247849.markdup.txt
+Picard	DuplicationMetrics	SRR8247850	/ibex/scratch/alghurmf/bulkAtac/SRR8247850_PreProB-progenitors/04bam/SRR8247850.markdup.txt
+Picard	DuplicationMetrics	SRR8247851	/ibex/scratch/alghurmf/bulkAtac/SRR8247851_PreProB-progenitors/04bam/SRR8247851.markdup.txt
+Picard	DuplicationMetrics	SRR8247852	/ibex/scratch/alghurmf/bulkAtac/SRR8247852_PreProB-progenitors/04bam/SRR8247852.markdup.txt
+Picard	DuplicationMetrics	SRR8247853	/ibex/scratch/alghurmf/bulkAtac/SRR8247853_PreProB-progenitors/04bam/SRR8247853.markdup.txt
+Samtools	flagstat	SRR8247848	/ibex/scratch/alghurmf/bulkAtac/SRR8247848_PreProB-progenitors/04bam/SRR8247848.flagstat.markdup.txt
+Samtools	flagstat	SRR8247849	/ibex/scratch/alghurmf/bulkAtac/SRR8247849_PreProB-progenitors/04bam/SRR8247849.clean.flagstat.txt
+Samtools	flagstat	SRR8247850	/ibex/scratch/alghurmf/bulkAtac/SRR8247850_PreProB-progenitors/04bam/SRR8247850.flagstat.markdup.txt
+Samtools	flagstat	SRR8247851	/ibex/scratch/alghurmf/bulkAtac/SRR8247851_PreProB-progenitors/04bam/SRR8247851.clean.flagstat.txt
+Samtools	flagstat	SRR8247852	/ibex/scratch/alghurmf/bulkAtac/SRR8247852_PreProB-progenitors/04bam/SRR8247852.clean.flagstat.txt
+Samtools	flagstat	SRR8247853	/ibex/scratch/alghurmf/bulkAtac/SRR8247853_PreProB-progenitors/04bam/SRR8247853.flagstat.markdup.txt
+Bowtie 2 / HiSAT2	all_sections	SRR8247848_bulkATAC.err	/ibex/scratch/alghurmf/bulkAtac/SRR8247848_PreProB-progenitors/00script/SRR8247848_bulkATAC.err
+Bowtie 2 / HiSAT2	all_sections	SRR8247849_bulkATAC.err	/ibex/scratch/alghurmf/bulkAtac/SRR8247849_PreProB-progenitors/00script/SRR8247849_bulkATAC.err
+Bowtie 2 / HiSAT2	all_sections	SRR8247850_bulkATAC.err	/ibex/scratch/alghurmf/bulkAtac/SRR8247850_PreProB-progenitors/00script/SRR8247850_bulkATAC.err
+Bowtie 2 / HiSAT2	all_sections	SRR8247851_bulkATAC.err	/ibex/scratch/alghurmf/bulkAtac/SRR8247851_PreProB-progenitors/00script/SRR8247851_bulkATAC.err
+Bowtie 2 / HiSAT2	all_sections	SRR8247852_bulkATAC.err	/ibex/scratch/alghurmf/bulkAtac/SRR8247852_PreProB-progenitors/00script/SRR8247852_bulkATAC.err
+Bowtie 2 / HiSAT2	all_sections	SRR8247853_bulkATAC.err	/ibex/scratch/alghurmf/bulkAtac/SRR8247853_PreProB-progenitors/00script/SRR8247853_bulkATAC.err
+FastQC	all_sections	SRR8247848_1	/ibex/scratch/alghurmf/bulkAtac/SRR8247848_PreProB-progenitors/01fastqc/SRR8247848_1_fastqc.zip
+FastQC	all_sections	SRR8247848_2	/ibex/scratch/alghurmf/bulkAtac/SRR8247848_PreProB-progenitors/01fastqc/SRR8247848_2_fastqc.zip
+FastQC	all_sections	SRR8247848_trim1	/ibex/scratch/alghurmf/bulkAtac/SRR8247848_PreProB-progenitors/03trimmed_fastqc/SRR8247848_trim1_fastqc.zip
+FastQC	all_sections	SRR8247848_trim2	/ibex/scratch/alghurmf/bulkAtac/SRR8247848_PreProB-progenitors/03trimmed_fastqc/SRR8247848_trim2_fastqc.zip
+FastQC	all_sections	SRR8247849_trim2	/ibex/scratch/alghurmf/bulkAtac/SRR8247849_PreProB-progenitors/03trimmed_fastqc/SRR8247849_trim2_fastqc.zip
+FastQC	all_sections	SRR8247849_trim1	/ibex/scratch/alghurmf/bulkAtac/SRR8247849_PreProB-progenitors/03trimmed_fastqc/SRR8247849_trim1_fastqc.zip
+FastQC	all_sections	SRR8247849_2	/ibex/scratch/alghurmf/bulkAtac/SRR8247849_PreProB-progenitors/01fastqc/SRR8247849_2_fastqc.zip
+FastQC	all_sections	SRR8247849_1	/ibex/scratch/alghurmf/bulkAtac/SRR8247849_PreProB-progenitors/01fastqc/SRR8247849_1_fastqc.zip
+FastQC	all_sections	SRR8247850_trim1	/ibex/scratch/alghurmf/bulkAtac/SRR8247850_PreProB-progenitors/03trimmed_fastqc/SRR8247850_trim1_fastqc.zip
+FastQC	all_sections	SRR8247850_trim2	/ibex/scratch/alghurmf/bulkAtac/SRR8247850_PreProB-progenitors/03trimmed_fastqc/SRR8247850_trim2_fastqc.zip
+FastQC	all_sections	SRR8247850_1	/ibex/scratch/alghurmf/bulkAtac/SRR8247850_PreProB-progenitors/01fastqc/SRR8247850_1_fastqc.zip
+FastQC	all_sections	SRR8247850_2	/ibex/scratch/alghurmf/bulkAtac/SRR8247850_PreProB-progenitors/01fastqc/SRR8247850_2_fastqc.zip
+FastQC	all_sections	SRR8247851_trim2	/ibex/scratch/alghurmf/bulkAtac/SRR8247851_PreProB-progenitors/03trimmed_fastqc/SRR8247851_trim2_fastqc.zip
+FastQC	all_sections	SRR8247851_trim1	/ibex/scratch/alghurmf/bulkAtac/SRR8247851_PreProB-progenitors/03trimmed_fastqc/SRR8247851_trim1_fastqc.zip
+FastQC	all_sections	SRR8247851_2	/ibex/scratch/alghurmf/bulkAtac/SRR8247851_PreProB-progenitors/01fastqc/SRR8247851_2_fastqc.zip
+FastQC	all_sections	SRR8247851_1	/ibex/scratch/alghurmf/bulkAtac/SRR8247851_PreProB-progenitors/01fastqc/SRR8247851_1_fastqc.zip
+FastQC	all_sections	SRR8247852_trim1	/ibex/scratch/alghurmf/bulkAtac/SRR8247852_PreProB-progenitors/03trimmed_fastqc/SRR8247852_trim1_fastqc.zip
+FastQC	all_sections	SRR8247852_trim2	/ibex/scratch/alghurmf/bulkAtac/SRR8247852_PreProB-progenitors/03trimmed_fastqc/SRR8247852_trim2_fastqc.zip
+FastQC	all_sections	SRR8247852_2	/ibex/scratch/alghurmf/bulkAtac/SRR8247852_PreProB-progenitors/01fastqc/SRR8247852_2_fastqc.zip
+FastQC	all_sections	SRR8247852_1	/ibex/scratch/alghurmf/bulkAtac/SRR8247852_PreProB-progenitors/01fastqc/SRR8247852_1_fastqc.zip
+FastQC	all_sections	SRR8247853_trim2	/ibex/scratch/alghurmf/bulkAtac/SRR8247853_PreProB-progenitors/03trimmed_fastqc/SRR8247853_trim2_fastqc.zip
+FastQC	all_sections	SRR8247853_trim1	/ibex/scratch/alghurmf/bulkAtac/SRR8247853_PreProB-progenitors/03trimmed_fastqc/SRR8247853_trim1_fastqc.zip
+FastQC	all_sections	SRR8247853_2	/ibex/scratch/alghurmf/bulkAtac/SRR8247853_PreProB-progenitors/01fastqc/SRR8247853_2_fastqc.zip
+FastQC	all_sections	SRR8247853_1	/ibex/scratch/alghurmf/bulkAtac/SRR8247853_PreProB-progenitors/01fastqc/SRR8247853_1_fastqc.zip

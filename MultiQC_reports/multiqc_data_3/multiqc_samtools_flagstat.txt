@@ -1,0 +1,11 @@
+Sample	total_passed	total_failed	secondary_passed	secondary_failed	supplementary_passed	supplementary_failed	duplicates_passed	duplicates_failed	mapped_passed	mapped_failed	mapped_passed_pct	mapped_failed_pct	paired in sequencing_passed	paired in sequencing_failed	read1_passed	read1_failed	read2_passed	read2_failed	properly paired_passed	properly paired_failed	properly paired_passed_pct	properly paired_failed_pct	with itself and mate mapped_passed	with itself and mate mapped_failed	singletons_passed	singletons_failed	singletons_passed_pct	singletons_failed_pct	with mate mapped to a different chr_passed	with mate mapped to a different chr_failed	with mate mapped to a different chr (mapQ >= 5)_passed	with mate mapped to a different chr (mapQ >= 5)_failed	flagstat_total
+D200preB_S12	8439688	0	0	0	0	0	0	0	8439688	0	100.0	nan	8439688	0	4219840	0	4219848	0	8439688	0	100.0	nan	8439688	0	0	0	0.0	nan	0	0	0	0	8439688
+D201preB_S24	15096824	0	0	0	0	0	1542338	0	14432540	0	95.6	nan	15096824	0	7548412	0	7548412	0	14432540	0	95.6	nan	14432540	0	0	0	0.0	nan	0	0	0	0	15096824
+D202preB_S36	23750460	0	0	0	0	0	3431414	0	23182180	0	97.61	nan	23750460	0	11875230	0	11875230	0	23182180	0	97.61	nan	23182180	0	0	0	0.0	nan	0	0	0	0	23750460
+D2206-4_S14	8400679	0	0	0	0	0	0	0	8400679	0	100.0	nan	8400679	0	4200340	0	4200339	0	8400679	0	100.0	nan	8400679	0	0	0	0.0	nan	0	0	0	0	8400679
+preB_ATAC_D210_S20	16326944	0	0	0	0	0	0	0	16326944	0	100.0	nan	16326944	0	8163468	0	8163476	0	16326944	0	100.0	nan	16326944	0	0	0	0.0	nan	0	0	0	0	16326944
+preB_ATAC_D211_S52	15610610	0	0	0	0	0	987824	0	14614402	0	93.62	nan	15610610	0	7805305	0	7805305	0	14614402	0	93.62	nan	14614402	0	0	0	0.0	nan	0	0	0	0	15610610
+preB_ATAC_D212_S40	13336447	0	0	0	0	0	0	0	13336447	0	100.0	nan	13336447	0	6668219	0	6668228	0	13336447	0	100.0	nan	13336447	0	0	0	0.0	nan	0	0	0	0	13336447
+preB_ATAC_D213_S28	6494290	0	0	0	0	0	0	0	6494290	0	100.0	nan	6494290	0	3247151	0	3247139	0	6494290	0	100.0	nan	6494290	0	0	0	0.0	nan	0	0	0	0	6494290
+preB_ATAC_D214_S16	6948046	0	0	0	0	0	0	0	6948046	0	100.0	nan	6948046	0	3474013	0	3474033	0	6948046	0	100.0	nan	6948046	0	0	0	0.0	nan	0	0	0	0	6948046
+preB_ATAC_D215_S4	6934341	0	0	0	0	0	0	0	6934341	0	100.0	nan	6934341	0	3467162	0	3467179	0	6934341	0	100.0	nan	6934341	0	0	0	0.0	nan	0	0	0	0	6934341

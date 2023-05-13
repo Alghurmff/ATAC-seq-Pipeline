@@ -1,0 +1,71 @@
+Module	Section	Sample Name	Source
+Picard	DuplicationMetrics	D200proB_S11	/ibex/scratch/alghurmf/bulkAtac/D200proB_S11/04bam/D200proB_S11.markdup.txt
+Picard	DuplicationMetrics	D201proB_S23	/ibex/scratch/alghurmf/bulkAtac/D201proB_S23/04bam/D201proB_S23.markdup.txt
+Picard	DuplicationMetrics	D202proB_S35	/ibex/scratch/alghurmf/bulkAtac/D202proB_S35/04bam/D202proB_S35.markdup.txt
+Picard	DuplicationMetrics	D2206-3_S13	/ibex/scratch/alghurmf/bulkAtac/D2206proB-3_S13/04bam/D2206-3_S13.markdup.txt
+Picard	DuplicationMetrics	proB_ATAC_D210_S21	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D210_S21/04bam/proB_ATAC_D210_S21.markdup.txt
+Picard	DuplicationMetrics	proB_ATAC_D211_S51	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D211_S51/04bam/proB_ATAC_D211_S51.markdup.txt
+Picard	DuplicationMetrics	proB_ATAC_D212_S39	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D212_S39/04bam/proB_ATAC_D212_S39.markdup.txt
+Picard	DuplicationMetrics	proB_ATAC_D213_S27	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D213_S27/04bam/proB_ATAC_D213_S27.markdup.txt
+Picard	DuplicationMetrics	proB_ATAC_D214_S15	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D214_S15/04bam/proB_ATAC_D214_S15.markdup.txt
+Picard	DuplicationMetrics	proB_ATAC_D215_S3	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D215_S3/04bam/proB_ATAC_D215_S3.markdup.txt
+Samtools	flagstat	D200proB_S11	/ibex/scratch/alghurmf/bulkAtac/D200proB_S11/04bam/D200proB_S11.flagstat.markdup.txt
+Samtools	flagstat	D201proB_S23	/ibex/scratch/alghurmf/bulkAtac/D201proB_S23/04bam/D201proB_S23.clean.flagstat.txt
+Samtools	flagstat	D202proB_S35	/ibex/scratch/alghurmf/bulkAtac/D202proB_S35/04bam/D202proB_S35.flagstat.markdup.txt
+Samtools	flagstat	D2206-3_S13	/ibex/scratch/alghurmf/bulkAtac/D2206proB-3_S13/04bam/D2206-3_S13.flagstat.markdup.txt
+Samtools	flagstat	proB_ATAC_D210_S21	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D210_S21/04bam/proB_ATAC_D210_S21.flagstat.markdup.txt
+Samtools	flagstat	proB_ATAC_D211_S51	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D211_S51/04bam/proB_ATAC_D211_S51.flagstat.markdup.txt
+Samtools	flagstat	proB_ATAC_D212_S39	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D212_S39/04bam/proB_ATAC_D212_S39.flagstat.markdup.txt
+Samtools	flagstat	proB_ATAC_D213_S27	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D213_S27/04bam/proB_ATAC_D213_S27.flagstat.markdup.txt
+Samtools	flagstat	proB_ATAC_D214_S15	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D214_S15/04bam/proB_ATAC_D214_S15.flagstat.markdup.txt
+Samtools	flagstat	proB_ATAC_D215_S3	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D215_S3/04bam/proB_ATAC_D215_S3.flagstat.markdup.txt
+Bowtie 2 / HiSAT2	all_sections	D200proB_S11_bulkATAC.err	/ibex/scratch/alghurmf/bulkAtac/D200proB_S11/00script/D200proB_S11_bulkATAC.err
+Bowtie 2 / HiSAT2	all_sections	D201proB_S23_bulkATAC.err	/ibex/scratch/alghurmf/bulkAtac/D201proB_S23/00script/D201proB_S23_bulkATAC.err
+Bowtie 2 / HiSAT2	all_sections	D202proB_S35_bulkATAC.err	/ibex/scratch/alghurmf/bulkAtac/D202proB_S35/00script/D202proB_S35_bulkATAC.err
+Bowtie 2 / HiSAT2	all_sections	D2206-3_S13_bulkATAC.err	/ibex/scratch/alghurmf/bulkAtac/D2206proB-3_S13/00script/D2206-3_S13_bulkATAC.err
+Bowtie 2 / HiSAT2	all_sections	proB_ATAC_D210_S21_bulkATAC.err	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D210_S21/00script/proB_ATAC_D210_S21_bulkATAC.err
+Bowtie 2 / HiSAT2	all_sections	proB_ATAC_D211_S51_bulkATAC.err	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D211_S51/00script/proB_ATAC_D211_S51_bulkATAC.err
+Bowtie 2 / HiSAT2	all_sections	proB_ATAC_D212_S39_bulkATAC.err	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D212_S39/00script/proB_ATAC_D212_S39_bulkATAC.err
+Bowtie 2 / HiSAT2	all_sections	proB_ATAC_D213_S27_bulkATAC.err	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D213_S27/00script/proB_ATAC_D213_S27_bulkATAC.err
+Bowtie 2 / HiSAT2	all_sections	proB_ATAC_D214_S15_bulkATAC.err	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D214_S15/00script/proB_ATAC_D214_S15_bulkATAC.err
+Bowtie 2 / HiSAT2	all_sections	proB_ATAC_D215_S3_bulkATAC.err	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D215_S3/00script/proB_ATAC_D215_S3_bulkATAC.err
+FastQC	all_sections	D200proB_S11_R2_001	/ibex/scratch/alghurmf/bulkAtac/D200proB_S11/01fastqc/D200proB_S11_R2_001_fastqc.zip
+FastQC	all_sections	D200proB_S11_R1_001	/ibex/scratch/alghurmf/bulkAtac/D200proB_S11/01fastqc/D200proB_S11_R1_001_fastqc.zip
+FastQC	all_sections	D200proB_S11_trim2	/ibex/scratch/alghurmf/bulkAtac/D200proB_S11/03trimmed_fastqc/D200proB_S11_trim2_fastqc.zip
+FastQC	all_sections	D200proB_S11_trim1	/ibex/scratch/alghurmf/bulkAtac/D200proB_S11/03trimmed_fastqc/D200proB_S11_trim1_fastqc.zip
+FastQC	all_sections	D201proB_S23_trim1	/ibex/scratch/alghurmf/bulkAtac/D201proB_S23/03trimmed_fastqc/D201proB_S23_trim1_fastqc.zip
+FastQC	all_sections	D201proB_S23_trim2	/ibex/scratch/alghurmf/bulkAtac/D201proB_S23/03trimmed_fastqc/D201proB_S23_trim2_fastqc.zip
+FastQC	all_sections	D201proB_S23_R1_001	/ibex/scratch/alghurmf/bulkAtac/D201proB_S23/01fastqc/D201proB_S23_R1_001_fastqc.zip
+FastQC	all_sections	D201proB_S23_R2_001	/ibex/scratch/alghurmf/bulkAtac/D201proB_S23/01fastqc/D201proB_S23_R2_001_fastqc.zip
+FastQC	all_sections	D202proB_S35_trim2	/ibex/scratch/alghurmf/bulkAtac/D202proB_S35/03trimmed_fastqc/D202proB_S35_trim2_fastqc.zip
+FastQC	all_sections	D202proB_S35_trim1	/ibex/scratch/alghurmf/bulkAtac/D202proB_S35/03trimmed_fastqc/D202proB_S35_trim1_fastqc.zip
+FastQC	all_sections	D202proB_S35_R1_001	/ibex/scratch/alghurmf/bulkAtac/D202proB_S35/01fastqc/D202proB_S35_R1_001_fastqc.zip
+FastQC	all_sections	D202proB_S35_R2_001	/ibex/scratch/alghurmf/bulkAtac/D202proB_S35/01fastqc/D202proB_S35_R2_001_fastqc.zip
+FastQC	all_sections	D2206-3_S13_trim2	/ibex/scratch/alghurmf/bulkAtac/D2206proB-3_S13/03trimmed_fastqc/D2206-3_S13_trim2_fastqc.zip
+FastQC	all_sections	D2206-3_S13_trim1	/ibex/scratch/alghurmf/bulkAtac/D2206proB-3_S13/03trimmed_fastqc/D2206-3_S13_trim1_fastqc.zip
+FastQC	all_sections	D2206-3_S13_R1_001	/ibex/scratch/alghurmf/bulkAtac/D2206proB-3_S13/01fastqc/D2206-3_S13_R1_001_fastqc.zip
+FastQC	all_sections	D2206-3_S13_R2_001	/ibex/scratch/alghurmf/bulkAtac/D2206proB-3_S13/01fastqc/D2206-3_S13_R2_001_fastqc.zip
+FastQC	all_sections	proB_ATAC_D210_S21_R2_001	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D210_S21/01fastqc/proB_ATAC_D210_S21_R2_001_fastqc.zip
+FastQC	all_sections	proB_ATAC_D210_S21_R1_001	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D210_S21/01fastqc/proB_ATAC_D210_S21_R1_001_fastqc.zip
+FastQC	all_sections	proB_ATAC_D210_S21_trim2	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D210_S21/03trimmed_fastqc/proB_ATAC_D210_S21_trim2_fastqc.zip
+FastQC	all_sections	proB_ATAC_D210_S21_trim1	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D210_S21/03trimmed_fastqc/proB_ATAC_D210_S21_trim1_fastqc.zip
+FastQC	all_sections	proB_ATAC_D211_S51_trim2	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D211_S51/03trimmed_fastqc/proB_ATAC_D211_S51_trim2_fastqc.zip
+FastQC	all_sections	proB_ATAC_D211_S51_trim1	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D211_S51/03trimmed_fastqc/proB_ATAC_D211_S51_trim1_fastqc.zip
+FastQC	all_sections	proB_ATAC_D211_S51_R2_001	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D211_S51/01fastqc/proB_ATAC_D211_S51_R2_001_fastqc.zip
+FastQC	all_sections	proB_ATAC_D211_S51_R1_001	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D211_S51/01fastqc/proB_ATAC_D211_S51_R1_001_fastqc.zip
+FastQC	all_sections	proB_ATAC_D212_S39_R2_001	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D212_S39/01fastqc/proB_ATAC_D212_S39_R2_001_fastqc.zip
+FastQC	all_sections	proB_ATAC_D212_S39_R1_001	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D212_S39/01fastqc/proB_ATAC_D212_S39_R1_001_fastqc.zip
+FastQC	all_sections	proB_ATAC_D212_S39_trim2	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D212_S39/03trimmed_fastqc/proB_ATAC_D212_S39_trim2_fastqc.zip
+FastQC	all_sections	proB_ATAC_D212_S39_trim1	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D212_S39/03trimmed_fastqc/proB_ATAC_D212_S39_trim1_fastqc.zip
+FastQC	all_sections	proB_ATAC_D213_S27_R2_001	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D213_S27/01fastqc/proB_ATAC_D213_S27_R2_001_fastqc.zip
+FastQC	all_sections	proB_ATAC_D213_S27_R1_001	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D213_S27/01fastqc/proB_ATAC_D213_S27_R1_001_fastqc.zip
+FastQC	all_sections	proB_ATAC_D213_S27_trim1	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D213_S27/03trimmed_fastqc/proB_ATAC_D213_S27_trim1_fastqc.zip
+FastQC	all_sections	proB_ATAC_D213_S27_trim2	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D213_S27/03trimmed_fastqc/proB_ATAC_D213_S27_trim2_fastqc.zip
+FastQC	all_sections	proB_ATAC_D214_S15_trim1	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D214_S15/03trimmed_fastqc/proB_ATAC_D214_S15_trim1_fastqc.zip
+FastQC	all_sections	proB_ATAC_D214_S15_trim2	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D214_S15/03trimmed_fastqc/proB_ATAC_D214_S15_trim2_fastqc.zip
+FastQC	all_sections	proB_ATAC_D214_S15_R1_001	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D214_S15/01fastqc/proB_ATAC_D214_S15_R1_001_fastqc.zip
+FastQC	all_sections	proB_ATAC_D214_S15_R2_001	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D214_S15/01fastqc/proB_ATAC_D214_S15_R2_001_fastqc.zip
+FastQC	all_sections	proB_ATAC_D215_S3_trim1	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D215_S3/03trimmed_fastqc/proB_ATAC_D215_S3_trim1_fastqc.zip
+FastQC	all_sections	proB_ATAC_D215_S3_trim2	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D215_S3/03trimmed_fastqc/proB_ATAC_D215_S3_trim2_fastqc.zip
+FastQC	all_sections	proB_ATAC_D215_S3_R2_001	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D215_S3/01fastqc/proB_ATAC_D215_S3_R2_001_fastqc.zip
+FastQC	all_sections	proB_ATAC_D215_S3_R1_001	/ibex/scratch/alghurmf/bulkAtac/proB_ATAC_D215_S3/01fastqc/proB_ATAC_D215_S3_R1_001_fastqc.zip

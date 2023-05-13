@@ -1,0 +1,22 @@
+Module	Section	Sample Name	Source
+Picard	DuplicationMetrics	SRR11727638	/ibex/scratch/alghurmf/bulkAtac/SRR11727638neutrophils/04bam/SRR11727638.markdup.txt
+Picard	DuplicationMetrics	SRR11727639	/ibex/scratch/alghurmf/bulkAtac/SRR11727639neutrophils/04bam/SRR11727639.markdup.txt
+Picard	DuplicationMetrics	SRR11727640	/ibex/scratch/alghurmf/bulkAtac/SRR11727640neutrophils/04bam/SRR11727640.markdup.txt
+Samtools	flagstat	SRR11727638	/ibex/scratch/alghurmf/bulkAtac/SRR11727638neutrophils/04bam/SRR11727638.clean.flagstat.txt
+Samtools	flagstat	SRR11727639	/ibex/scratch/alghurmf/bulkAtac/SRR11727639neutrophils/04bam/SRR11727639.clean.flagstat.txt
+Samtools	flagstat	SRR11727640	/ibex/scratch/alghurmf/bulkAtac/SRR11727640neutrophils/04bam/SRR11727640.clean.flagstat.txt
+Bowtie 2 / HiSAT2	all_sections	SRR11727638_bulkATAC.err	/ibex/scratch/alghurmf/bulkAtac/SRR11727638neutrophils/00script/SRR11727638_bulkATAC.err
+Bowtie 2 / HiSAT2	all_sections	SRR11727639_bulkATAC.err	/ibex/scratch/alghurmf/bulkAtac/SRR11727639neutrophils/00script/SRR11727639_bulkATAC.err
+Bowtie 2 / HiSAT2	all_sections	SRR11727640_bulkATAC.err	/ibex/scratch/alghurmf/bulkAtac/SRR11727640neutrophils/00script/SRR11727640_bulkATAC.err
+FastQC	all_sections	SRR11727638_1	/ibex/scratch/alghurmf/bulkAtac/SRR11727638neutrophils/01fastqc/SRR11727638_1_fastqc.zip
+FastQC	all_sections	SRR11727638_2	/ibex/scratch/alghurmf/bulkAtac/SRR11727638neutrophils/01fastqc/SRR11727638_2_fastqc.zip
+FastQC	all_sections	SRR11727638_trim2	/ibex/scratch/alghurmf/bulkAtac/SRR11727638neutrophils/03trimmed_fastqc/SRR11727638_trim2_fastqc.zip
+FastQC	all_sections	SRR11727638_trim1	/ibex/scratch/alghurmf/bulkAtac/SRR11727638neutrophils/03trimmed_fastqc/SRR11727638_trim1_fastqc.zip
+FastQC	all_sections	SRR11727639_trim1	/ibex/scratch/alghurmf/bulkAtac/SRR11727639neutrophils/03trimmed_fastqc/SRR11727639_trim1_fastqc.zip
+FastQC	all_sections	SRR11727639_trim2	/ibex/scratch/alghurmf/bulkAtac/SRR11727639neutrophils/03trimmed_fastqc/SRR11727639_trim2_fastqc.zip
+FastQC	all_sections	SRR11727639_2	/ibex/scratch/alghurmf/bulkAtac/SRR11727639neutrophils/01fastqc/SRR11727639_2_fastqc.zip
+FastQC	all_sections	SRR11727639_1	/ibex/scratch/alghurmf/bulkAtac/SRR11727639neutrophils/01fastqc/SRR11727639_1_fastqc.zip
+FastQC	all_sections	SRR11727640_trim2	/ibex/scratch/alghurmf/bulkAtac/SRR11727640neutrophils/03trimmed_fastqc/SRR11727640_trim2_fastqc.zip
+FastQC	all_sections	SRR11727640_trim1	/ibex/scratch/alghurmf/bulkAtac/SRR11727640neutrophils/03trimmed_fastqc/SRR11727640_trim1_fastqc.zip
+FastQC	all_sections	SRR11727640_1	/ibex/scratch/alghurmf/bulkAtac/SRR11727640neutrophils/01fastqc/SRR11727640_1_fastqc.zip
+FastQC	all_sections	SRR11727640_2	/ibex/scratch/alghurmf/bulkAtac/SRR11727640neutrophils/01fastqc/SRR11727640_2_fastqc.zip

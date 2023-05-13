@@ -1,0 +1,4 @@
+Sample	fragment_size	treatment_fragments_total	treatment_fragments_after_filtering	treatment_max_duplicates	treatment_redundant_rate	d
+SRR11727638	281.0	7680412.0	7680412.0	1.0	0.0	281.0
+SRR11727639	111.0	7008109.0	7008109.0	1.0	0.0	111.0
+SRR11727640	152.0	15375545.0	15375545.0	1.0	0.0	152.0

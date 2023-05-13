@@ -1,0 +1,4 @@
+Sample	input_read_pairs	surviving	surviving_pct	forward_only_surviving	forward_only_surviving_pct	reverse_only_surviving	reverse_only_surviving_pct	dropped	dropped_pct
+SRR11727638_1	9938057.0	9572925.0	96.33	260707.0	2.62	72722.0	0.73	31703.0	0.32
+SRR11727639_1	37247266.0	35751303.0	95.98	988039.0	2.65	386418.0	1.04	121506.0	0.33
+SRR11727640_1	46950072.0	45582744.0	97.09	916559.0	1.95	339062.0	0.72	111707.0	0.24
